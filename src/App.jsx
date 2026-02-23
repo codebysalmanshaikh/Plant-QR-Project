@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './components/Demopage'
+import Navbar from './plants.jsx'
 
 function App() {
 

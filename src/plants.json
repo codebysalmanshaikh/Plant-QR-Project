@@ -1,0 +1,91 @@
+{
+  "plants": [
+    {
+      "slug": "neem",
+      "name": "NEEM TREE",
+      "tagline": "The Village Pharmacy Tree",
+      "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/neem.jpg",
+      "listenLabel": "🔊 Listen Neem",
+      "sections": [
+        { "title": "🌳 Core Identity", "content": "Common Name: Neem\nScientific Name: Azadirachta indica\nFamily: Meliaceae\nOrder: Sapindales\nType: Evergreen medicinal tree\nOrigin: Indian subcontinent\nOther Names: Nimba, Margosa, Indian Lilac" },
+        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Sapindales\nFamily — Meliaceae\nGenus — Azadirachta\nSpecies — indica" },
+        { "title": "🔍 Field Identification Guide", "content": "Tall evergreen tree with wide crown\nSerrated leaflets\nWhite fragrant flowers\nGreen → yellow fruits\nDark cracked bark\nStrong medicinal smell" },
+        { "title": "📏 Morphology", "content": "Leaves: Compound pinnate (20–40 cm)\nFlowers: White, fragrant\nFruits: Oval drupe\nBark: Rough and bitter" },
+        { "title": "🌍 Habitat & Growth", "content": "Tropical climate\nHigh heat tolerance\nDrought resistant\nLong lifespan" },
+        { "title": "🧪 Chemical Compounds", "content": "Azadirachtin, Nimbin, Nimbidin, Nimbolide, Gedunin, Salannin" },
+        { "title": "💊 Medicinal Applications", "content": "Skin infections, acne, wound healing, gum care, antimicrobial extracts" },
+        { "title": "🦷 Dental Importance", "content": "Natural toothbrush (datun), antibacterial effect, plaque reduction" },
+        { "title": "🐛 Agricultural Importance", "content": "Natural pesticide, neem oil spray, soil amendment" },
+        { "title": "🧴 Commercial Products", "content": "Soaps, shampoos, mosquito repellents, toothpaste, herbal medicines" },
+        { "title": "🌱 Ecological Benefits", "content": "Dense shade, biodiversity support, pollution tolerant" },
+        { "title": "⚠ Safety Notes", "content": "Avoid excess use. Pregnancy caution. Use under guidance." },
+        { "title": "🛕 Cultural Importance", "content": "Sacred in India, used in festivals, Ayurvedic texts mention neem." },
+        { "title": "📚 Neem in Ayurveda", "content": "Bitter (Tikta rasa), cooling effect, blood purifier." },
+        { "title": "🧠 Student Quick Facts", "content": "1. Village Pharmacy Tree\n2. Every part medicinal\n3. Natural pesticide source\n4. Highly drought resistant" }
+      ],
+      "quiz": {
+        "question": "Which compound gives neem insecticidal property?",
+        "options": ["Azadirachtin", "Chlorophyll"],
+        "answer": "Azadirachtin"
+      }
+    },
+    {
+      "slug": "tulsi",
+      "name": "TULSI",
+      "tagline": "The Queen of Herbs",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Ocimum_tenuiflorum3.jpg/800px-Ocimum_tenuiflorum3.jpg",
+      "listenLabel": "🔊 Listen Tulsi",
+      "sections": [
+        { "title": "🌳 Core Identity", "content": "Common Name: Tulsi\nScientific Name: Ocimum tenuiflorum\nFamily: Lamiaceae\nOrder: Lamiales\nType: Perennial herb\nOrigin: Indian subcontinent\nOther Names: Holy Basil, Sacred Basil, Vrinda" },
+        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots → Asterids\nOrder — Lamiales\nFamily — Lamiaceae\nGenus — Ocimum\nSpecies — tenuiflorum" },
+        { "title": "🔍 Field Identification Guide", "content": "Small aromatic shrub\nPurple/green stems\nOval serrated leaves\nTiny purple flowers\nStrong clove-like fragrance" },
+        { "title": "📏 Morphology", "content": "Leaves: Oval, 2–5 cm, aromatic\nFlowers: Purple-white, in whorls\nStem: Woody at base, hairy\nHeight: 30–60 cm" },
+        { "title": "🌍 Habitat & Growth", "content": "Tropical and subtropical\nWell-drained soil\nFull sun\nHome garden favorite" },
+        { "title": "🧪 Chemical Compounds", "content": "Eugenol, Ursolic acid, Rosmarinic acid, Linalool, Carvacrol" },
+        { "title": "💊 Medicinal Applications", "content": "Respiratory disorders, stress relief, fever reduction, anti-inflammatory, immune booster" },
+        { "title": "🦷 Dental Importance", "content": "Antibacterial mouth freshener, treats mouth ulcers" },
+        { "title": "🐛 Agricultural Importance", "content": "Natural insect repellent when planted near crops" },
+        { "title": "🧴 Commercial Products", "content": "Herbal teas, essential oils, Ayurvedic tablets, Tulsi kadha" },
+        { "title": "🌱 Ecological Benefits", "content": "Attracts pollinators, purifies air, repels mosquitoes" },
+        { "title": "⚠ Safety Notes", "content": "Avoid during pregnancy. May thin blood — caution with anticoagulants." },
+        { "title": "🛕 Cultural Importance", "content": "Worshipped in Hindu households daily, planted in courtyard as spiritual guardian." },
+        { "title": "📚 Tulsi in Ayurveda", "content": "Tridoshic herb, Sattvic quality, used in Charaka Samhita." },
+        { "title": "🧠 Student Quick Facts", "content": "1. Adaptogen — fights stress\n2. Anti-viral properties\n3. Revered for 3000+ years\n4. Grown in every Hindu home" }
+      ],
+      "quiz": {
+        "question": "What is the primary active compound in Tulsi?",
+        "options": ["Eugenol", "Azadirachtin"],
+        "answer": "Eugenol"
+      }
+    },
+    {
+      "slug": "aloe-vera",
+      "name": "ALOE VERA",
+      "tagline": "Nature's First Aid Kit",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/800px-Aloe_vera_flower_inset.png",
+      "listenLabel": "🔊 Listen Aloe Vera",
+      "sections": [
+        { "title": "🌳 Core Identity", "content": "Common Name: Aloe Vera\nScientific Name: Aloe barbadensis miller\nFamily: Asphodelaceae\nOrder: Asparagales\nType: Succulent perennial\nOrigin: Arabian Peninsula\nOther Names: Ghritkumari, Burn Plant, True Aloe" },
+        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Monocots\nOrder — Asparagales\nFamily — Asphodelaceae\nGenus — Aloe\nSpecies — barbadensis" },
+        { "title": "🔍 Field Identification Guide", "content": "Rosette of thick fleshy leaves\nSerrated leaf margins\nClear gel inside leaves\nYellow tubular flowers\nNo visible stem" },
+        { "title": "📏 Morphology", "content": "Leaves: Thick succulent, 40–50 cm\nFlowers: Yellow, tubular, on spike\nRoots: Shallow, fibrous\nGel: Clear mucilaginous inner pulp" },
+        { "title": "🌍 Habitat & Growth", "content": "Arid and semi-arid\nWell-drained sandy soil\nFull sunlight\nDrought tolerant" },
+        { "title": "🧪 Chemical Compounds", "content": "Aloin, Emodin, Acemannan, Anthraquinones, Vitamins C & E" },
+        { "title": "💊 Medicinal Applications", "content": "Burns and wounds, skin moisturizing, digestive aid, constipation relief, anti-inflammatory" },
+        { "title": "🦷 Dental Importance", "content": "Aloe vera gel reduces gingivitis and plaque" },
+        { "title": "🐛 Agricultural Importance", "content": "Used as natural soil conditioner" },
+        { "title": "🧴 Commercial Products", "content": "Skin gels, face washes, juice drinks, shampoos, sunscreens" },
+        { "title": "🌱 Ecological Benefits", "content": "Low water usage, soil stabilizer, air purifier indoors" },
+        { "title": "⚠ Safety Notes", "content": "Do not ingest aloin (latex) in large amounts. Avoid during pregnancy." },
+        { "title": "🛕 Cultural Importance", "content": "Used by ancient Egyptians as Plant of Immortality, mentioned in Dioscorides." },
+        { "title": "📚 Aloe Vera in Ayurveda", "content": "Called Kumari in Ayurveda, balances all three doshas." },
+        { "title": "🧠 Student Quick Facts", "content": "1. Gel is 99% water\n2. Used for 6000+ years\n3. 1st aid for sunburn\n4. Thrives in poor soil" }
+      ],
+      "quiz": {
+        "question": "What gives Aloe Vera its healing gel property?",
+        "options": ["Acemannan", "Chlorophyll"],
+        "answer": "Acemannan"
+      }
+    }
+  ]
+}
