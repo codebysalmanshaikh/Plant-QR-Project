@@ -10,10 +10,19 @@ const Navbar = () => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
 
+  // Theme tokens — change everything here
+  const theme = {
+    bg: darkMode ? "bg-[#0f1a14]" : "bg-[#e8f3ec]",
+    text: darkMode ? "text-[#e6f3ec]" : "text-[#1c2b22]",
+    cardBg: darkMode ? "bg-[#16241d]" : "bg-white",
+    cardText: darkMode ? "text-[#e6f3ec]" : "text-[#1c2b22]",
+    cardBorder: darkMode ? "border border-[#2e7d3240]" : "border border-[#2e7d3220]",
+    footerText: darkMode ? "text-[#a5c8ad]" : "text-[#4a6652]",
+  };
+
   return (
     <div
-      className={`${darkMode ? "bg-[#0f1a14] text-[#e6f3ec]" : "bg-[#e8f3ec] text-[#1c2b22]"
-        } min-h-screen transition-all duration-300 font-['Poppins'] overflow-x-hidden`}
+      className={`${theme.bg} ${theme.text} min-h-screen transition-all duration-300 font-['Poppins'] overflow-x-hidden`}
     >
       {/* Scroll Indicator */}
       <div className="fixed top-0 left-0 h-[4px] bg-[#2e7d32] w-0 z-50"></div>
@@ -145,12 +154,11 @@ Long lifespan`
             {/* Accordion Header */}
             <div
               onClick={() => toggleAccordion(index)}
-              className="bg-white dark:bg-[#16241d] p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md transition"
+              className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md transition`}
             >
               {section.title}
               <span
-                className={`transition-transform duration-300 ${openAccordion === index ? "rotate-90" : ""
-                  }`}
+                className={`transition-transform duration-300 ${openAccordion === index ? "rotate-90" : ""}`}
               >
                 ▶
               </span>
@@ -163,7 +171,7 @@ Long lifespan`
                 maxHeight: openAccordion === index ? "500px" : "0px",
               }}
             >
-              <div className="bg-white dark:bg-[#16241d] p-[18px] mt-[12px] rounded-[14px] leading-[1.7] shadow-md whitespace-pre-line">
+              <div className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] mt-[12px] rounded-[14px] leading-[1.7] shadow-md whitespace-pre-line`}>
                 {section.content}
               </div>
             </div>
@@ -190,7 +198,7 @@ Long lifespan`
       </div>
 
       {/* Footer */}
-      <footer className="text-center py-[40px]">
+      <footer className={`text-center py-[40px] ${theme.footerText}`}>
         Designed & Developed by{" "}
         <span className="text-[#2e7d32] font-semibold">
           Jay Shinde
