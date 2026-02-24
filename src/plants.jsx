@@ -1,5 +1,5 @@
 // Navbar.jsx
-// HOW URLS WORK:
+// HOW URLS WORK: same examples:
 //   localhost:5173/neem       → shows Neem
 //   localhost:5173/tulsi      → shows Tulsi
 //   localhost:5173/aloe-vera  → shows Aloe Vera

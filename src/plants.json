@@ -1,34 +1,1091 @@
 {
   "plants": [
     {
-      "slug": "neem",
-      "name": "NEEM TREE",
-      "tagline": "The Village Pharmacy Tree",
-      "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/neem.jpg",
-      "listenLabel": "🔊 Listen Neem",
-      "sections": [
-        { "title": "🌳 Core Identity", "content": "Common Name: Neem\nScientific Name: Azadirachta indica\nFamily: Meliaceae\nOrder: Sapindales\nType: Evergreen medicinal tree\nOrigin: Indian subcontinent\nOther Names: Nimba, Margosa, Indian Lilac" },
-        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Sapindales\nFamily — Meliaceae\nGenus — Azadirachta\nSpecies — indica" },
-        { "title": "🔍 Field Identification Guide", "content": "Tall evergreen tree with wide crown\nSerrated leaflets\nWhite fragrant flowers\nGreen → yellow fruits\nDark cracked bark\nStrong medicinal smell" },
-        { "title": "📏 Morphology", "content": "Leaves: Compound pinnate (20–40 cm)\nFlowers: White, fragrant\nFruits: Oval drupe\nBark: Rough and bitter" },
-        { "title": "🌍 Habitat & Growth", "content": "Tropical climate\nHigh heat tolerance\nDrought resistant\nLong lifespan" },
-        { "title": "🧪 Chemical Compounds", "content": "Azadirachtin, Nimbin, Nimbidin, Nimbolide, Gedunin, Salannin" },
-        { "title": "💊 Medicinal Applications", "content": "Skin infections, acne, wound healing, gum care, antimicrobial extracts" },
-        { "title": "🦷 Dental Importance", "content": "Natural toothbrush (datun), antibacterial effect, plaque reduction" },
-        { "title": "🐛 Agricultural Importance", "content": "Natural pesticide, neem oil spray, soil amendment" },
-        { "title": "🧴 Commercial Products", "content": "Soaps, shampoos, mosquito repellents, toothpaste, herbal medicines" },
-        { "title": "🌱 Ecological Benefits", "content": "Dense shade, biodiversity support, pollution tolerant" },
-        { "title": "⚠ Safety Notes", "content": "Avoid excess use. Pregnancy caution. Use under guidance." },
-        { "title": "🛕 Cultural Importance", "content": "Sacred in India, used in festivals, Ayurvedic texts mention neem." },
-        { "title": "📚 Neem in Ayurveda", "content": "Bitter (Tikta rasa), cooling effect, blood purifier." },
-        { "title": "🧠 Student Quick Facts", "content": "1. Village Pharmacy Tree\n2. Every part medicinal\n3. Natural pesticide source\n4. Highly drought resistant" }
-      ],
-      "quiz": {
-        "question": "Which compound gives neem insecticidal property?",
-        "options": ["Azadirachtin", "Chlorophyll"],
-        "answer": "Azadirachtin"
-      }
+  "slug": "neem",
+  "name": "NEEM TREE",
+  "tagline": "The Village Pharmacy Tree",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/neem.jpg",
+  "listenLabel": "🔊 Listen Neem",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Neem\nScientific Name: Azadirachta indica\nFamily: Meliaceae\nOrder: Sapindales\nType: Evergreen medicinal tree\nOrigin: Indian subcontinent\nOther Names: Nimba, Margosa, Indian Lilac"
     },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Sapindales\nFamily — Meliaceae\nGenus — Azadirachta\nSpecies — indica"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Tall evergreen tree with wide crown\nLeaves made of many small pointed leaflets\nLeaflets have serrated edges\nBitter taste (traditional test — not required to try)\nSmall white fragrant flowers in clusters\nSmooth green fruits turning yellow when ripe\nDark, rough, cracked bark\nStrong medicinal smell from crushed leaves"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound pinnate, 20–40 cm length, 8–18 leaflets per leaf, lance-shaped with toothed margin, bright to dark green\nFlowers: White, sweet fragrance, small size, axillary clusters, spring to early summer flowering\nFruits: Oval drupe, green → yellow when ripe, contains single seed\nBark: Brown to gray, rough and fissured, bitter taste"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & semi-tropical climate\nHigh heat tolerance\nModerate to low rainfall areas\nGrows even in poor soils\nFull sun preferred\nVery high drought tolerance\nCan live many decades"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Azadirachtin (natural insecticide), Nimbin, Nimbidin, Nimbolide, Gedunin, Salannin - These give Neem its antibacterial, antifungal, insect-repelling, and anti-inflammatory properties"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Used Traditionally For: Skin infections, acne & eczema, wound healing, fever support, gum disease, digestive cleansing, fungal infections\nModern Herbal Uses: Antimicrobial extracts, dental care products, skin care formulations, anti-lice treatments, herbal pesticides"
+    },
+    {
+      "title": "🦷 Neem in Dental Care",
+      "content": "Neem twigs used as natural toothbrush (datun)\nAntibacterial effect on gums\nUsed in herbal toothpaste\nHelps reduce plaque bacteria\nVery important student point for traditional oral hygiene"
+    },
+    {
+      "title": "🐛 Agricultural Importance",
+      "content": "Neem is extremely important in organic farming\nNatural pesticide source\nNeem oil spray controls insects\nNeem cake used as soil amendment\nEco-friendly pest control\nDoes not harm beneficial insects as much as chemical pesticides\nVery exam-friendly important point"
+    },
+    {
+      "title": "🧴 Commercial Products",
+      "content": "Soaps, shampoos, face wash, mosquito repellents, herbal medicines, toothpaste, skin creams, hair oils, organic pesticides"
+    },
+    {
+      "title": "🌱 Ecological & Environmental Benefits",
+      "content": "Provides dense shade\nSurvives harsh climates\nSupports birds & insects\nReduces need for chemical pesticides\nHelps sustainable agriculture\nGood avenue tree\nUrban pollution tolerant"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Neem oil should not be swallowed directly. Excess internal consumption may be harmful. Pregnant women advised caution with neem extracts. Always use medicinally under guidance. (Adding safety notes makes your page more scientific.)"
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Considered sacred in Indian culture\nLeaves used in festivals\nHung at doors during epidemics traditionally\nAssociated with purification\nMentioned in Ayurveda texts"
+    },
+    {
+      "title": "📚 Neem in Ayurveda",
+      "content": "Classified as: Bitter (Tikta rasa)\nCooling effect\nBlood purifier (traditional classification)\nUsed in skin and metabolic disorders (Ayurvedic context)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Called 'Village Pharmacy Tree'\n2. Every part is medicinal\n3. Source of natural pesticide\n4. Used for dental hygiene\n5. Highly drought resistant\n6. Contains azadirachtin compound\n7. Over 100 medicinal uses documented"
+    }
+  ],
+  "quiz": {
+    "question": "Which compound in Neem gives it natural insecticidal properties?",
+    "options": ["Azadirachtin", "Chlorophyll"],
+    "answer": "Azadirachtin"
+  }
+},
+    {
+  "slug": "siris",
+  "name": "SIRIS TREE",
+  "tagline": "The Nitrogen-Fixing Shade Provider",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/siris.jpg",
+  "listenLabel": "🔊 Listen Siris",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Siris Tree / Lebbek / Woman's Tongue Tree\nScientific Name: Albizia lebbeck\nFamily: Fabaceae (Leguminosae)\nOrder: Fabales\nType: Deciduous shade and timber tree\nOrigin: Indian subcontinent and Southeast Asia\nOther Names: Shirish, Kala Siris"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Fabales\nFamily — Fabaceae\nGenus — Albizia\nSpecies — lebbeck"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Large spreading deciduous tree\nBipinnate compound leaves (fern-like)\nCreamy-white fluffy powder-puff flowers\nLong flat straw-colored seed pods\nPods produce rattling sound in wind\nDark gray rough and fissured bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Bipinnate compound, small oblong leaflets\nFlowers: Creamy-white to pale yellow, fluffy clusters, sweet fragrance\nFruits: Flat elongated legume pods, green → straw-colored, rattling sound\nBark: Dark gray, rough and fissured"
+    },
+    {
+      "title": "🌍 Habitat & Growth",
+      "content": "Tropical & subtropical climate\nWarm temperature preferred\nModerate rainfall\nWell-drained soils\nFull sun requirement\nGood drought tolerance\nCommon as avenue and shade tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Saponins, Flavonoids, Tannins, Alkaloids"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Treatment of asthma and respiratory disorders, Skin diseases, Anti-allergic remedy, Digestive disorders, Anti-inflammatory effects"
+    },
+    {
+      "title": "🌱 Agricultural Importance",
+      "content": "Nitrogen-fixing tree (improves soil fertility), Provides shade for crops, Useful in agroforestry, Prevents soil erosion"
+    },
+    {
+      "title": "🪵 Timber Importance",
+      "content": "Used for furniture, Construction purposes, Plywood and panels, Fuelwood"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Pollution tolerant, Fast-growing, Attracts pollinators, Provides dense shade, Improves biodiversity"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Seeds not commonly consumed. Medicinal use should be under supervision. Pods may create litter in urban areas."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Mentioned in Ayurvedic texts, Sacred and medicinal tree in India, Planted along roads and gardens"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Large spreading shade tree\n2. Creamy fluffy flowers\n3. Flat rattling pods (Woman's Tongue)\n4. Nitrogen-fixing roots\n5. Used in Ayurveda\n6. Drought tolerant"
+    }
+  ],
+  "quiz": {
+    "question": "Which property makes Siris Tree important for soil fertility?",
+    "options": ["Nitrogen-fixing ability", "Deep root system"],
+    "answer": "Nitrogen-fixing ability"
+  }
+},
+{
+  "slug": "saptaparni",
+  "name": "SAPTAPARNI TREE",
+  "tagline": "The Blackboard Tree - Night-Fragrant Medicinal Wonder",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/saptaparni.jpg",
+  "listenLabel": "🔊 Listen Saptaparni",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Saptaparni / Blackboard Tree / Devil Tree\nScientific Name: Alstonia scholaris\nFamily: Apocynaceae\nOrder: Gentianales\nType: Evergreen ornamental & medicinal tree\nOrigin: Indian subcontinent & Southeast Asia\nOther Names: Dita tree, Milkwood Pine, Chatim (Bengal)"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Gentianales\nFamily — Apocynaceae\nGenus — Alstonia\nSpecies — scholaris"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Tall, straight trunk with dense rounded crown\nLeaves arranged in whorls (usually 4–7 leaves from one point)\nThick, leathery leaves with smooth edges\nMilky latex exuding when cut\nSmall greenish-white fragrant flowers\nLong paired cylindrical pods (fruit)\nSmooth grey bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, whorled arrangement (4–7 per node), oblong to lanceolate, thick and leathery, dark glossy green\nFlowers: Greenish-white, small, strongly sweet fragrant (especially at night), terminal cymes, autumn flowering (October–November)\nFruits: Long slender cylindrical follicle pods (up to 30–60 cm), numerous seeds with silky hairs for wind dispersal\nBark: Grey to brown, smooth to slightly rough, produces milky sap when cut, bitter taste"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nThrives in warm climates\nModerate rainfall preferred\nWell-drained soils\nFull sun to partial shade\nHigh urban tolerance (common roadside tree)\nLifespan: Several decades"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Echitamine, Alstonine, Scholaricine, Ditamine - Important alkaloids contributing to antimicrobial activity, antimalarial properties, anti-inflammatory effects, and antipyretic (fever-reducing) action"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Treatment of fever, malaria support, respiratory disorders (asthma, bronchitis), digestive disorders, skin diseases\nModern Uses: Alkaloid-based research compounds, anti-microbial extracts, herbal formulations for respiratory health"
+    },
+    {
+      "title": "🏫 Educational & Historical Importance",
+      "content": "Wood used to make traditional blackboards (hence 'Blackboard Tree')\nLightweight wood used for packing cases and pencils\nPlanted near schools and institutions\nVery important exam point for students"
+    },
+    {
+      "title": "🐛 Ecological & Environmental Importance",
+      "content": "Excellent avenue tree\nProvides dense shade\nAttractive ornamental foliage\nNight-fragrant flowers attract pollinators\nHelps reduce urban heat\nUrban pollution tolerant\nFast-growing\nSoil stabilizer\nSupports bird life"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Traditional medicine preparations\nTimber (lightweight wood products)\nOrnamental landscaping\nAyurvedic formulations"
+    },
+    {
+      "title": "🌱 Environmental Benefits",
+      "content": "Urban pollution tolerant\nFast-growing\nSoil stabilizer\nSupports bird life\nImproves roadside greenery"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Contains potent alkaloids. Excess internal consumption may be toxic. Should be used medicinally under expert supervision. Milky latex may cause mild skin irritation."
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Sacred in some Indian traditions\nLeaves associated with spiritual symbolism\nKnown as 'Chatim tree' in Bengal\nOften planted near temples and schools"
+    },
+    {
+      "title": "📚 Saptaparni in Ayurveda",
+      "content": "Rasa (Taste): Bitter (Tikta)\nEffect: Cooling\nTraditionally used for fever and respiratory disorders\nConsidered useful in balancing Kapha and Pitta (Ayurvedic context)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Leaves grow in whorls (unique identification feature)\n2. Flowers are strongly fragrant at night\n3. Called 'Blackboard Tree' - wood used for blackboards\n4. Rich in medicinal alkaloids\n5. Often planted near schools\n6. Seeds dispersed by wind\n7. Produces milky latex when cut"
+    }
+  ],
+  "quiz": {
+    "question": "Why is Alstonia scholaris called the 'Blackboard Tree'?",
+    "options": ["Its leaves are black", "Wood was used to make traditional blackboards"],
+    "answer": "Wood was used to make traditional blackboards"
+  }
+},
+{
+  "slug": "orchid-tree",
+  "name": "ORCHID TREE",
+  "tagline": "The Spring-Blooming Camel-Foot Beauty",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/orchid-tree.jpg",
+  "listenLabel": "🔊 Listen Orchid Tree",
+  "sections": [
+    {
+      "title": "🌸 Core Identity",
+      "content": "Common Name: Orchid Tree / Kachnar\nScientific Name: Bauhinia variegata\nFamily: Fabaceae (Leguminosae)\nOrder: Fabales\nType: Deciduous ornamental flowering tree\nOrigin: Indian subcontinent & Southeast Asia\nOther Names: Mountain Ebony, Kovidara"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Fabales\nFamily — Fabaceae\nGenus — Bauhinia\nSpecies — variegata"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium-sized deciduous tree\nUnique bilobed (camel-foot shaped) leaves\nLarge pink, purple, or white orchid-like flowers\nFlat elongated seed pods\nSmooth gray bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, bilobed (two-lobed, butterfly or camel-foot shape), 10–15 cm wide, entire margin, bright green\nFlowers: Pink, purple, or white (variegated patterns), large and showy, mild fragrance, terminal clusters, late winter to early spring flowering\nFruits: Flat and elongated legume (pod), green → brown when mature, contains several flat seeds\nBark: Gray to light brown, smooth to slightly rough"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climates preferred\nModerate rainfall\nWell-drained soil\nFull sun requirement\nModerate drought tolerance\nCommon as garden and roadside tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Flavonoids, Tannins, Alkaloids, Glycosides - These contribute to antioxidant properties, anti-inflammatory effects, and antimicrobial potential"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses (Ayurveda): Treatment of digestive disorders, skin diseases, wound healing, thyroid-related support (traditional belief)\nModern Research: Studied for antioxidant activity, investigated for anti-inflammatory properties"
+    },
+    {
+      "title": "🌸 Ornamental Importance",
+      "content": "Highly decorative flowering tree\nBlooms before new leaves appear\nPopular in gardens and parks\nAdds vibrant spring color\nVery important student point for landscaping"
+    },
+    {
+      "title": "🌱 Agricultural & Ecological Importance",
+      "content": "Member of legume family\nHelps improve soil fertility\nAttracts bees and pollinators\nProvides moderate shade"
+    },
+    {
+      "title": "🍽 Culinary Importance",
+      "content": "Flower buds used as vegetable (Kachnar sabzi)\nUsed in pickles in some regions\nEdible after proper cooking"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Supports biodiversity\nSuitable for urban landscaping\nImproves aesthetic value\nDrought tolerant once established"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Pods should not be consumed raw. Medicinal use should be guided. Moderate consumption recommended."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Mentioned in ancient Indian literature\nAssociated with spring season\nValued in traditional Indian households"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Unique camel-foot shaped leaf\nOrchid-like flowers\nMember of legume family"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Orchid-like pink flowers\n2. Camel-foot shaped leaves (unique identification)\n3. Flat seed pods\n4. Legume family member\n5. Edible flower buds (Kachnar sabzi)\n6. Blooms in spring\n7. Beautiful ornamental tree"
+    }
+  ],
+  "quiz": {
+    "question": "Why are Bauhinia variegata leaves called 'camel-foot shaped'?",
+    "options": ["They are brown like a camel", "They have a bilobed shape resembling a camel's footprint"],
+    "answer": "They have a bilobed shape resembling a camel's footprint"
+  }
+},{
+  "slug": "golden-shower-tree",
+  "name": "GOLDEN SHOWER TREE",
+  "tagline": "The Summer Beauty - National Tree of Thailand",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/golden-shower-tree.jpg",
+  "listenLabel": "🔊 Listen Golden Shower Tree",
+  "sections": [
+    {
+      "title": "🌼 Core Identity",
+      "content": "Common Name: Golden Shower Tree / Amaltas\nScientific Name: Cassia fistula\nFamily: Fabaceae (Leguminosae)\nOrder: Fabales\nType: Deciduous ornamental flowering tree\nOrigin: Indian subcontinent & Southeast Asia\nOther Names: Indian Laburnum, Aragvadha"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Fabales\nFamily — Fabaceae\nGenus — Cassia\nSpecies — fistula"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium-sized deciduous tree\nLong drooping clusters of bright yellow flowers\nCompound pinnate leaves\nLong cylindrical black pods\nSmooth gray bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound, pinnate, 4–8 pairs of leaflets, oval to oblong, entire margin, bright green\nFlowers: Bright yellow, long hanging racemes, medium size, summer flowering (April–June), blooms when leaves shed\nFruits: Long cylindrical legume (pod), green → dark brown/black when mature, contains multiple seeds embedded in pulp\nBark: Gray to brown, smooth in young trees, slightly rough in mature trees"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climate preferred\nModerate rainfall\nWell-drained soil\nFull sun required\nGood drought tolerance\nCommonly planted as avenue tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Anthraquinones, Rhein, Sennosides, Flavonoids, Tannins - These provide mild laxative properties, antioxidant effects, and antimicrobial action"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses (Ayurveda): Natural laxative, treatment of constipation, skin diseases, fever management, blood purification (traditional context)\nModern Uses: Herbal laxative preparations, studied for antimicrobial properties"
+    },
+    {
+      "title": "🌼 Ornamental Importance",
+      "content": "National tree of Thailand\nState flower of Kerala (India)\nWidely used in landscaping\nSpectacular summer flowering tree\nVery important student point for identification and cultural significance"
+    },
+    {
+      "title": "🌱 Agricultural & Ecological Importance",
+      "content": "Improves soil fertility (legume family)\nSupports pollinators\nProvides seasonal shade\nSuitable for urban planting"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Ayurvedic medicines\nHerbal laxatives\nOrnamental gardening\nTraditional preparations"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Drought tolerant\nAttracts bees and butterflies\nEnhances biodiversity\nReduces urban heat"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Excess consumption may cause diarrhea. Medicinal use should be supervised. Pods should not be consumed raw without preparation."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Used in Vishu festival (Kerala)\nConsidered sacred in some traditions\nSymbol of prosperity and beauty"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Produces long hanging flower clusters\nFlowers bloom before full leaf growth\nMember of legume family"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Bright yellow hanging flowers\n2. Popular summer flowering tree\n3. Long cylindrical black pods\n4. Legume family member\n5. Used as natural laxative\n6. National tree of Thailand\n7. State flower of Kerala (India)"
+    }
+  ],
+  "quiz": {
+    "question": "What is the official national tree of which country?",
+    "options": ["India", "Thailand"],
+    "answer": "Thailand"
+  }
+},{
+  "slug": "kassod-tree",
+  "name": "KASSOD TREE",
+  "tagline": "The Evergreen Shade Provider - Siamese Cassia",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/kassod-tree.jpg",
+  "listenLabel": "🔊 Listen Kassod Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Kassod Tree / Siamese Cassia\nScientific Name: Senna siamea (synonym: Cassia siamea)\nFamily: Fabaceae (Leguminosae)\nOrder: Fabales\nType: Evergreen ornamental and shade tree\nOrigin: Southeast Asia\nOther Names: Yellow Cassia, Siamese Senna"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Fabales\nFamily — Fabaceae\nGenus — Senna\nSpecies — siamea"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium-sized evergreen tree\nCompound pinnate leaves\nBright yellow flowers in clusters\nLong flat brown seed pods\nSmooth gray-brown bark\nCommonly planted along roadsides"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound, pinnate, 6–12 pairs of leaflets, oblong, entire (smooth) margin, dark green\nFlowers: Bright yellow, medium size, terminal clusters, late summer to monsoon flowering\nFruits: Long flat legume (pod), green → dark brown when mature, contains several seeds\nBark: Gray to brown, smooth to slightly rough"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climates preferred\nModerate rainfall\nWell-drained soils\nFull sun requirement\nGood drought tolerance\nCommonly grown as avenue tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Anthraquinones, Flavonoids, Tannins, Alkaloids - These contribute to mild laxative properties, antimicrobial effects, and anti-inflammatory potential"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Mild laxative, treatment for fever, skin disorders, digestive support\nModern Research: Studied for antimicrobial properties, investigated for antioxidant effects"
+    },
+    {
+      "title": "🌼 Ornamental Importance",
+      "content": "Attractive bright yellow flowers\nUsed for roadside and garden planting\nProvides dense shade\nEnhances urban greenery\nVery important student point for landscaping and identification"
+    },
+    {
+      "title": "🌱 Agricultural & Environmental Importance",
+      "content": "Improves soil fertility (legume family)\nNitrogen-fixing association\nSuitable for agroforestry\nHelps prevent soil erosion"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Traditional medicine\nLandscaping projects\nTimber (minor uses)\nFuelwood"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Pollution tolerant\nFast-growing\nSupports pollinators\nProvides shade"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Leaves should not be consumed in excess. Contains compounds that may cause toxicity if improperly used. Medicinal use should be under guidance."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Planted as avenue tree in many Asian countries\nValued for ornamental beauty\nSometimes used in traditional regional dishes (after proper preparation in some cultures)"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Member of legume family\nProduces pod-type fruits\nHas nitrogen-fixing root nodules (with bacteria association)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Bright yellow flowers\n2. Common roadside tree\n3. Member of legume family\n4. Produces long seed pods\n5. Drought tolerant\n6. Contains anthraquinones\n7. Nitrogen-fixing tree"
+    }
+  ],
+  "quiz": {
+    "question": "What is the primary benefit of Kassod Tree in agriculture?",
+    "options": ["It produces food crops", "It improves soil fertility through nitrogen-fixing"],
+    "answer": "It improves soil fertility through nitrogen-fixing"
+  }
+},{
+  "slug": "amla",
+  "name": "AMLA TREE",
+  "tagline": "The Indian Gooseberry - Vitamin C Powerhouse",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/amla-tree.jpg",
+  "listenLabel": "🔊 Listen Amla Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Amla / Indian Gooseberry\nScientific Name: Phyllanthus emblica (synonym: Emblica officinalis)\nFamily: Phyllanthaceae\nOrder: Malpighiales\nType: Deciduous medicinal fruit tree\nOrigin: Indian subcontinent\nOther Names: Amalaki, Nellikai"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade ��� Angiosperms\nClade — Eudicots\nOrder — Malpighiales\nFamily — Phyllanthaceae\nGenus — Phyllanthus\nSpecies — emblica"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Small to medium-sized deciduous tree\nFeathery branchlets with many small leaves\nLeaves resemble tamarind leaves (but are simple)\nSmall greenish-yellow flowers\nSmooth, round, light-green fruits\nThin light-brown bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, closely set along branchlets, linear-oblong, entire margin, light green\nFlowers: Greenish-yellow, small, unisexual, spring flowering\nFruits: Round berry, light green to yellowish, sour and astringent taste, rich in Vitamin C\nBark: Light brown to gray, thin and slightly peeling"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nTolerates high heat\nModerate rainfall preferred\nWell-drained sandy loam soil\nFull sun requirement\nModerate drought tolerance\nLong-living fruit tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Ascorbic acid (Vitamin C), Tannins, Gallic acid, Ellagic acid, Flavonoids - These provide strong antioxidant properties, immunity-boosting effects, anti-inflammatory action, and antimicrobial benefits"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses (Ayurveda): Boosts immunity, improves digestion, supports hair growth, blood purification (traditional classification), used in Triphala formulation\nModern Uses: Vitamin C supplements, antioxidant formulations, hair oils and shampoos, herbal tonics, nutraceutical products"
+    },
+    {
+      "title": "🦷 Nutritional Importance",
+      "content": "One of the richest natural sources of Vitamin C\nStrengthens immune system\nSupports skin and hair health\nImproves metabolism\nVery important student point for nutritional value"
+    },
+    {
+      "title": "🌱 Agricultural Importance",
+      "content": "Important commercial fruit crop\nUsed in food processing industries\nSuitable for dryland farming\nFruit used in pickles, candies, juices"
+    },
+    {
+      "title": "🧴 Commercial Products",
+      "content": "Hair oils, shampoos, herbal tonics, pickles, candies, juice, Ayurvedic medicines, health supplements"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Soil conservation\nDrought resistant\nProvides fruit for birds\nSuitable for agroforestry systems"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Generally safe when consumed in moderate amounts. Excess intake may cause gastric discomfort. Herbal extracts should be taken under guidance."
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Sacred in Indian culture\nAssociated with Hindu rituals\nMentioned in ancient Ayurvedic texts\nConsidered a symbol of health and longevity"
+    },
+    {
+      "title": "📚 Amla in Ayurveda",
+      "content": "Rasa (Taste): Predominantly Sour (Amla rasa)\nVirya (Potency): Cooling\nBalances all three doshas (Vata, Pitta, Kapha)\nKey ingredient in Triphala formulation"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Richest natural source of Vitamin C\n2. Leaves look like tamarind leaves (but simple)\n3. Major Ayurvedic fruit\n4. Powerful antioxidant\n5. Heat tolerant tree\n6. Culturally sacred in India\n7. Key ingredient in Triphala"
+    }
+  ],
+  "quiz": {
+    "question": "Which famous Ayurvedic formulation contains Amla as a key ingredient?",
+    "options": ["Triphala", "Chyawanprash"],
+    "answer": "Triphala"
+  }
+},{
+  "slug": "weeping-fig",
+  "name": "WEEPING FIG TREE",
+  "tagline": "The Graceful Indoor Beauty - Benjamin Fig",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/weeping-fig-tree.jpg",
+  "listenLabel": "🔊 Listen Weeping Fig Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Weeping Fig\nScientific Name: Ficus benjamina\nFamily: Moraceae\nOrder: Rosales\nType: Evergreen ornamental tree\nOrigin: Southeast Asia & Australia\nOther Names: Benjamin Fig, Java Fig"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Rosales\nFamily — Moraceae\nGenus — Ficus\nSpecies — benjamina"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium to tall evergreen tree\nGraceful, drooping (weeping) branches\nSmall, glossy, pointed oval leaves\nSmooth light-gray bark\nMilky latex when stem is cut\nSmall round fig fruits (usually red to orange when ripe)"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, ovate to elliptic with pointed tip, entire (smooth) margin, glossy and leathery texture, bright to dark green\nFlowers: Very small and hidden inside the fig fruit (syconium), pollinated by specialized fig wasps\nFruits: Small round syconium (fig), green → red/orange when ripe, contains numerous tiny seeds\nBark: Light gray, smooth, produces white milky sap"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nPrefers warm climates\nModerate rainfall\nWell-drained fertile soil\nFull sun to partial shade\nPopular as houseplant\nLong-living ornamental tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Flavonoids, Tannins, Saponins, Latex compounds - These contribute to mild antimicrobial properties, anti-inflammatory potential, and traditional medicinal value"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Treatment of skin disorders, wound healing, mild digestive support\nModern Study: Latex and leaf extracts studied for antimicrobial properties, limited but emerging pharmacological research"
+    },
+    {
+      "title": "🏡 Ornamental Importance",
+      "content": "Popular indoor decorative plant\nUsed in landscaping and avenue planting\nAttractive weeping branch structure\nAir-purifying reputation (commonly cited in interior plant studies)\nVery important student point for indoor plant selection"
+    },
+    {
+      "title": "🌱 Ecological Importance",
+      "content": "Provides shade\nSupports birds (fruit source)\nContributes to urban greenery\nImproves aesthetic landscape value"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Indoor ornamental plant trade\nBonsai cultivation\nLandscaping projects\nDecorative garden design"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Improves air quality in indoor spaces\nReduces urban heat when planted outdoors\nProvides habitat for small birds\nEnhances biodiversity in tropical regions"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Milky latex may cause skin irritation. Sap can be toxic to pets if ingested. Sensitive individuals may experience mild allergic reactions."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Belongs to the sacred fig family (Ficus genus)\nSymbol of shelter and protection in some Asian cultures\nCommonly planted in temples and gardens"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Unique fig-type inflorescence (flowers inside fruit)\nPollination occurs through a mutual relationship with fig wasps\nSome varieties develop aerial roots"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Has glossy pointed leaves\n2. Known for drooping branches (weeping appearance)\n3. Popular indoor houseplant\n4. Produces small fig fruits\n5. Can be shaped as bonsai\n6. Contains latex sap\n7. Belongs to sacred fig family (Moraceae)"
+    }
+  ],
+  "quiz": {
+    "question": "Why are the flowers of Weeping Fig hidden?",
+    "options": ["To save water", "Because they are enclosed inside the fig fruit (syconium)"],
+    "answer": "Because they are enclosed inside the fig fruit (syconium)"
+  }
+},
+{
+  "slug": "curry-leaf-plant",
+  "name": "CURRY LEAF PLANT",
+  "tagline": "The Aromatic Kitchen Essential - Kadi Patta",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/curry-leaf-plant.jpg",
+  "listenLabel": "🔊 Listen Curry Leaf Plant",
+  "sections": [
+    {
+      "title": "🌿 Core Identity",
+      "content": "Common Name: Curry Leaf Plant\nScientific Name: Murraya koenigii\nFamily: Rutaceae\nOrder: Sapindales\nType: Evergreen aromatic shrub or small tree\nOrigin: Indian subcontinent\nOther Names: Kadi Patta, Meetha Neem"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Sapindales\nFamily — Rutaceae\nGenus — Murraya\nSpecies — koenigii"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Small tree or shrub (2–6 meters tall)\nStrong aromatic leaves when crushed\nCompound pinnate leaves\nSmall white fragrant flowers\nSmall shiny black berries\nSmooth grayish bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound, pinnate, 11–21 leaflets per leaf, lanceolate shape, slightly toothed margin, dark green, strong aromatic smell\nFlowers: White, sweet fragrance, small size, terminal clusters, spring to summer flowering\nFruits: Round berry, green → shiny black when ripe, single seed\nBark: Grayish-brown, smooth"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climate preferred\nModerate rainfall\nWell-drained soil\nFull sun to partial shade\nModerate drought tolerance\nCommonly grown in home gardens"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Carbazole alkaloids, Mahanimbine, Girinimbine, Essential oils, Flavonoids - These provide antioxidant properties, antimicrobial effects, anti-inflammatory action, and antidiabetic potential (under study)"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Improves digestion, controls blood sugar (traditional belief), supports hair growth, used in treating diarrhea and nausea, strengthens liver function (Ayurvedic context)\nModern Uses: Studied for antidiabetic activity, used in herbal supplements, incorporated in natural health products"
+    },
+    {
+      "title": "🍲 Culinary Importance",
+      "content": "Essential ingredient in Indian cuisine\nUsed in tempering (tadka)\nAdds flavor and aroma to curries\nUsed fresh or dried\nVery important student point for everyday culinary uses"
+    },
+    {
+      "title": "🌱 Agricultural Importance",
+      "content": "Easy to cultivate\nSuitable for kitchen gardens\nRequires minimal maintenance\nCan be grown in pots"
+    },
+    {
+      "title": "🧴 Commercial Products",
+      "content": "Herbal hair oils, Ayurvedic formulations, spice blends, essential oil extraction, nutritional supplements"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Improves home garden biodiversity\nAttracts pollinators\nProvides edible leaves\nEnhances sustainable kitchen gardening"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Generally safe when used as food. Fruit seeds are not edible. Excess medicinal use should be under guidance."
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Widely used in Indian households\nConsidered auspicious in some traditions\nIntegral part of South Indian cuisine"
+    },
+    {
+      "title": "📚 Curry Leaf in Ayurveda",
+      "content": "Rasa (Taste): Slightly bitter and pungent\nVirya (Potency): Heating\nUsed for digestive disorders\nSupports metabolic health (Ayurvedic view)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Strong aromatic leaves\n2. Essential cooking ingredient in Indian cuisine\n3. Contains carbazole alkaloids\n4. Easy to grow at home or in pots\n5. Produces shiny black berries\n6. Used in traditional medicine\n7. Member of Rutaceae family (same as citrus)"
+    }
+  ],
+  "quiz": {
+    "question": "What cooking technique commonly uses Curry Leaf Plant leaves?",
+    "options": ["Tempering (Tadka)", "Grilling"],
+    "answer": "Tempering (Tadka)"
+  }
+},
+{
+  "slug": "kadamba",
+  "name": "KADAMBA TREE",
+  "tagline": "The Sacred Fast-Growing Tropical Beauty",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/kadamba-tree.jpg",
+  "listenLabel": "🔊 Listen Kadamba Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Kadamba\nScientific Name: Neolamarckia cadamba\nFamily: Rubiaceae\nOrder: Gentianales\nType: Fast-growing tropical evergreen tree\nOrigin: South and Southeast Asia\nOther Names: Burflower Tree, Kadam"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Gentianales\nFamily — Rubiaceae\nGenus — Neolamarckia\nSpecies — cadamba"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Tall, straight trunk\nLarge broad leaves\nUnique round orange-yellow ball-shaped flowers\nDense, spreading crown\nSmooth gray bark\nSpherical fruit clusters"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, ovate to elliptic, large (up to 30 cm long), entire margin, bright green\nFlowers: Yellow to orange, round ball-like cluster, 3–6 cm diameter, dense spherical inflorescence, monsoon season flowering\nFruits: Multiple fruit (clustered), round ball-like, green → yellow/orange, contains numerous tiny seeds\nBark: Gray, smooth when young, slightly rough with age"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical climate\nWarm and humid regions\nHigh rainfall preferred\nMoist, well-drained soil\nFull sun requirement\nVery fast-growing\nCommonly found near rivers"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Alkaloids, Tannins, Saponins, Flavonoids - These contribute to antimicrobial properties, anti-inflammatory effects, and antioxidant activity"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Treatment of fever, skin diseases, wound healing, digestive disorders\nModern Research: Studied for antimicrobial and antioxidant properties"
+    },
+    {
+      "title": "🌱 Ecological Importance",
+      "content": "Provides dense shade\nSupports birds and insects\nFast-growing reforestation tree\nPrevents soil erosion\nVery important student point for environmental conservation"
+    },
+    {
+      "title": "🪵 Economic Importance",
+      "content": "Timber used for plywood\nPaper pulp production\nLight construction work\nPlantation forestry"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Improves biodiversity\nSuitable for agroforestry\nEnhances soil stability\nGood carbon sequestration potential"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Not commonly used as edible plant. Medicinal use should be guided. Requires adequate space due to large canopy."
+    },
+    {
+      "title": "🛕 Cultural & Religious Importance",
+      "content": "Sacred in Hindu mythology\nAssociated with Lord Krishna\nMentioned in ancient Indian literature\nConsidered symbol of love and devotion"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Unique spherical flower head (ball-shaped inflorescence)\nMember of coffee family (Rubiaceae)\nRapid growth rate\nOne of the fastest-growing tropical trees"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Round orange ball-shaped flowers (unique identification)\n2. Fast-growing tropical tree\n3. Large broad leaves (up to 30 cm)\n4. Thrives in monsoon climate\n5. Sacred in Indian tradition (Krishna connection)\n6. Used in paper and plywood industry\n7. Excellent reforestation tree"
+    }
+  ],
+  "quiz": {
+    "question": "What is the unique characteristic of Kadamba flowers?",
+    "options": ["Tiny individual flowers", "Round orange ball-shaped cluster"],
+    "answer": "Round orange ball-shaped cluster"
+  }
+},{
+  "slug": "false-ashoka",
+  "name": "FALSE ASHOKA TREE",
+  "tagline": "The Elegant Urban Avenue Tree - Mast Tree",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/false-ashoka-tree.jpg",
+  "listenLabel": "🔊 Listen False Ashoka Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: False Ashoka / Mast Tree\nScientific Name: Polyalthia longifolia\nFamily: Annonaceae\nOrder: Magnoliales\nType: Evergreen ornamental tree\nOrigin: Indian subcontinent & Sri Lanka\nOther Names: Ashoka Tree (commonly called, but different from Saraca asoca)"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Magnoliales\nFamily — Annonaceae\nGenus — Polyalthia\nSpecies — longifolia"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Tall, narrow, columnar shape\nDropping branches\nLong, narrow, wavy-edged leaves\nSmall greenish flowers\nSmall purple to black fruits\nCommonly planted in rows along roads"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, lanceolate, 12–25 cm length, wavy (undulated) margin, light green when young, dark green when mature\nFlowers: Greenish, small, mild fragrance, axillary clusters, spring flowering\nFruits: Oval berry, green → purple/black when ripe, contains single seed\nBark: Gray to brown, smooth"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climates preferred\nModerate rainfall\nWell-drained soil\nFull sun to partial shade\nModerate drought tolerance\nUpright and compact growth habit"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Alkaloids, Flavonoids, Tannins, Saponins - These contribute to antimicrobial potential, anti-inflammatory properties, and antioxidant effects"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Treatment of fever, skin disorders, anti-inflammatory uses\nModern Research: Studied for antimicrobial and anticancer potential, investigated for antioxidant activity"
+    },
+    {
+      "title": "🌱 Ornamental Importance",
+      "content": "Popular avenue tree\nUsed as natural sound barrier\nActs as windbreak\nEnhances vertical landscape design\nCommon in schools and gardens\nVery important student point for urban landscaping"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Pollution tolerant\nSuitable for urban planting\nProvides greenery in limited spaces\nHelps reduce noise pollution"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Landscaping projects, garden design, ornamental planting, traditional herbal uses"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Not commonly used as edible plant. Medicinal use should be under supervision. Fruits not generally consumed."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Commonly planted in temples and schools\nAssociated with peace and elegance\nFrequently mistaken for true Ashoka tree"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Distinct narrow, columnar growth habit\nWavy leaf margins (undulated edges)\nFast-growing ornamental species\nMember of Annonaceae family (custard apple family)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Tall, narrow column shape (distinctive)\n2. Wavy-edged leaves (unique identification)\n3. Small green flowers\n4. Purple-black fruits\n5. Popular avenue tree\n6. Urban pollution tolerant\n7. Natural sound barrier"
+    }
+  ],
+  "quiz": {
+    "question": "What is the distinctive characteristic of False Ashoka leaves?",
+    "options": ["Smooth straight edges", "Wavy or undulated margins"],
+    "answer": "Wavy or undulated margins"
+  }
+},
+{
+  "slug": "damask-rose",
+  "name": "DAMASK ROSE",
+  "tagline": "The Fragrant Beauty - Queen of Flowers",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/damask-rose.jpg",
+  "listenLabel": "🔊 Listen Damask Rose",
+  "sections": [
+    {
+      "title": "🌹 Core Identity",
+      "content": "Common Name: Damask Rose\nScientific Name: Rosa × damascena\nFamily: Rosaceae\nOrder: Rosales\nType: Deciduous flowering shrub\nOrigin: Middle East (widely cultivated in India and Europe)\nOther Names: Rose of Castile, Ispahan Rose"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Rosales\nFamily — Rosaceae\nGenus — Rosa\nSpecies — × damascena (hybrid species)"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium-sized thorny shrub\nFragrant pink to light red flowers\nMany soft layered petals\nCompound leaves with serrated margins\nStrong sweet floral fragrance\nProduces oval red-orange rose hips"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound (pinnate), 5–7 leaflets per leaf, ovate shape, serrated margin, dark green\nFlowers: Pink to light red, strong and sweet fragrance, medium to large size, numerous layered petals, spring flowering\nFruits (Rose Hips): Oval shape, red to orange, contains multiple small seeds\nStem & Thorns: Green to brown stems, sharp prickles along stems"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Temperate to subtropical climate\nPrefers mild climates\nModerate rainfall\nWell-drained fertile soil\nFull sun required\nPerennial shrub"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Citronellol, Geraniol, Nerol, Phenylethyl alcohol, Flavonoids - These contribute to strong fragrance, antioxidant properties, mild antimicrobial effects, and skin-soothing properties"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Stress relief, digestive support, skin toning, mild laxative (rose petal preparations)\nModern Uses: Rose water for skincare, aromatherapy, herbal teas, anti-inflammatory cosmetic products"
+    },
+    {
+      "title": "🌸 Perfume & Cosmetic Importance",
+      "content": "Major source of rose oil (attar)\nUsed in high-quality perfumes\nRose water widely used in cosmetics\nImportant in luxury fragrance industry\nVery important student point for commercial perfume industry"
+    },
+    {
+      "title": "🌱 Agricultural Importance",
+      "content": "Commercial cultivation for essential oil\nGrown in Bulgaria, Turkey, India\nLabor-intensive flower harvesting\nHigh economic value crop"
+    },
+    {
+      "title": "🧴 Commercial Products",
+      "content": "Rose oil (attar), rose water, perfumes, skin creams, soaps, aromatherapy oils, herbal teas, flavoring agents"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Attracts pollinators like bees\nEnhances garden biodiversity\nOrnamental landscaping value\nSupports fragrance-based agriculture"
+    },
+    {
+      "title": "⚠ Safety & Toxicity Notes",
+      "content": "Generally safe in moderate use. Essential oil should be diluted before skin application. Some individuals may have fragrance sensitivity."
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Symbol of love and beauty\nUsed in religious ceremonies\nImportant in Middle Eastern and Indian traditions\nAssociated with royalty and luxury"
+    },
+    {
+      "title": "📚 Damask Rose in Traditional Systems",
+      "content": "Cooling effect (traditional view)\nUsed for calming mind and heart\nIncorporated in Unani and Ayurvedic preparations"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Highly fragrant pink rose (distinctive aroma)\n2. Source of rose oil and rose water\n3. Attracts pollinators (especially bees)\n4. Thorny flowering shrub\n5. Used in luxury perfumes\n6. Symbol of love and beauty\n7. Hybrid species (Rosa × damascena)"
+    }
+  ],
+  "quiz": {
+    "question": "What is the primary commercial use of Damask Rose flowers?",
+    "options": ["Food flavoring only", "Rose oil extraction and fragrance production"],
+    "answer": "Rose oil extraction and fragrance production"
+  }
+},
+{
+  "slug": "sandalwood",
+  "name": "SANDALWOOD TREE",
+  "tagline": "The Sacred Fragrant Treasure - Indian Sandalwood",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/sandalwood-tree.jpg",
+  "listenLabel": "🔊 Listen Sandalwood Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Sandalwood / Indian Sandalwood\nScientific Name: Santalum album\nFamily: Santalaceae\nOrder: Santalales\nType: Evergreen aromatic tree\nOrigin: Indian subcontinent (especially Southern India)\nOther Names: Chandan, East Indian Sandalwood"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Santalales\nFamily — Santalaceae\nGenus — Santalum\nSpecies — album"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Small to medium-sized evergreen tree\nSmooth grayish-brown bark\nOpposite simple leaves\nSmall purplish-brown flowers\nAromatic heartwood\nSemi-parasitic roots (draw nutrients from nearby plants)"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, opposite arrangement, ovate to lanceolate, entire margin, light to dark green\nFlowers: Greenish → purplish-brown, small, mild fragrance, clusters, flowering throughout the year (varies regionally)\nFruits: Small round drupe, green → dark purple when ripe, single seed\nBark & Wood: Thin smooth gray-brown bark, yellow to brown highly fragrant heartwood, pale less aromatic sapwood"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm regions preferred\nModerate rainfall\nWell-drained sandy or loamy soil\nFull sun requirement\nSpecial Feature: Semi-parasitic (forms root connections with host plants)\nLong-living tree"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Alpha-santalol, Beta-santalol, Santalene, Sesquiterpenes - These provide strong fragrance, antimicrobial properties, anti-inflammatory effects, and skin-soothing benefits"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Cooling agent in Ayurveda, skin disorders, stress relief, fever management, used in religious rituals\nModern Uses: Aromatherapy, essential oil extraction, cosmetic formulations, perfume industry"
+    },
+    {
+      "title": "🧴 Perfume & Cosmetic Importance",
+      "content": "Major source of sandalwood oil\nUsed in high-quality perfumes\nIngredient in soaps and creams\nUsed in incense sticks (agarbatti)\nVery important student point for luxury fragrance industry"
+    },
+    {
+      "title": "🌱 Economic Importance",
+      "content": "Highly valuable timber\nGovernment-regulated cultivation in India\nExport-quality essential oil\nHigh commercial demand"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Supports biodiversity\nDrought tolerant\nGrown in agroforestry systems\nHelps sustainable plantation economy"
+    },
+    {
+      "title": "⚠ Safety & Legal Notes",
+      "content": "Sandalwood harvesting is regulated in India. Oil should be diluted before skin application. Illegal cutting is punishable by law."
+    },
+    {
+      "title": "🛕 Cultural & Religious Importance",
+      "content": "Sacred in Hindu rituals\nUsed in temple ceremonies\nSandalwood paste applied during religious functions\nSymbol of purity and spirituality"
+    },
+    {
+      "title": "📚 Sandalwood in Ayurveda",
+      "content": "Rasa (Taste): Bitter and sweet\nVirya (Potency): Cooling\nUsed for skin diseases and calming the mind\nBalances Pitta dosha (Ayurvedic context)"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Semi-parasitic root system - unique feature\nForms root connections with host plants\nDraws nutrients from nearby trees\nHighly fragrant heartwood (yellow to brown)\nMember of Santalaceae family (sandalwood family)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Aromatic heartwood (highly fragrant)\n2. Source of valuable sandalwood oil\n3. Sacred in religious rituals and temple ceremonies\n4. Highly valuable timber (luxury market)\n5. Semi-parasitic roots (unique botanical feature)\n6. Contains santalol compounds\n7. Government-regulated harvesting in India"
+    }
+  
+  ],
+  "quiz": {
+    "question": "What is a unique botanical feature of Sandalwood roots?",
+    "options": ["They are very deep", "They are semi-parasitic and draw nutrients from host plants"],
+    "answer": "They are semi-parasitic and draw nutrients from host plants"
+  }
+},{
+  "slug": "african-tulip-tree",
+  "name": "AFRICAN TULIP TREE",
+  "tagline": "The Flame of the Forest - Spectacular Red Beauty",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/african-tulip-tree.jpg",
+  "listenLabel": "🔊 Listen African Tulip Tree",
+  "sections": [
+    {
+      "title": "1️⃣ Core Identity",
+      "content": "Common Name: African Tulip Tree\nScientific Name: Spathodea campanulata\nFamily: Bignoniaceae\nOrder: Lamiales\nType: Evergreen ornamental flowering tree\nOrigin: Tropical Africa\nOther Names: Flame of the Forest (not to be confused with Butea monosperma), Fountain Tree"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Lamiales\nFamily — Bignoniaceae\nGenus — Spathodea\nSpecies — campanulata"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Medium to large evergreen tree\nLarge bright red-orange bell-shaped flowers\nCompound pinnate leaves\nFlower buds filled with watery sap\nDark gray bark\nShowy crown visible from distance"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Compound, pinnate, 5–19 leaflets per leaf, ovate to elliptic, entire margin, dark green\nFlowers: Bright red to orange, bell-shaped (campanulate), large and showy, terminal clusters, spring to summer flowering\nFruits: Long boat-shaped capsule, green → brown when mature, contains numerous winged seeds\nBark: Dark gray, rough texture"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical & subtropical climate\nWarm climates preferred\nModerate to high rainfall\nWell-drained fertile soil\nFull sun requirement\nFast-growing\nCommonly planted in gardens and avenues"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Flavonoids, Tannins, Saponins, Alkaloids - These contribute to antimicrobial properties, anti-inflammatory potential, and antioxidant activity"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses: Used in African traditional medicine, treatment of skin infections, wound healing, anti-inflammatory uses\nModern Research: Studied for antimicrobial effects, investigated for antioxidant properties"
+    },
+    {
+      "title": "🌺 Ornamental Importance",
+      "content": "One of the most attractive flowering trees\nUsed widely in landscaping\nProvides vibrant seasonal color\nPopular avenue and garden tree\nVery important student point for ornamental and landscape design"
+    },
+    {
+      "title": "🌱 Ecological Importance",
+      "content": "Attracts birds and pollinators\nProvides shade\nFast canopy development\nUsed in reforestation projects"
+    },
+    {
+      "title": "🌍 Environmental Consideration",
+      "content": "Fast growth may make it invasive in some regions\nRequires management in non-native areas"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Sap from buds may cause mild irritation. Not commonly used for edible purposes."
+    },
+    {
+      "title": "🛕 Cultural Importance",
+      "content": "Symbol of tropical beauty\nWidely planted in urban landscapes\nAssociated with vibrant floral displays"
+    },
+    {
+      "title": "📚 Botanical Special Feature",
+      "content": "Bell-shaped \"tulip-like\" flowers (campanulate)\nBuds contain water (children sometimes use them as water squirters)\nWinged seeds dispersed by wind\nMember of Bignoniaceae family (trumpet vine family)"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Bright red-orange bell-shaped flowers (distinctive identification)\n2. Fast-growing ornamental tree\n3. Produces winged seeds for wind dispersal\n4. Compound pinnate leaves\n5. Attracts birds and pollinators\n6. Requires full sunlight\n7. Water-filled buds used by children"
+    }
+  ],
+  "quiz": {
+    "question": "What is special about the flower buds of African Tulip Tree?",
+    "options": ["They are very fragrant", "They contain watery sap that children use as water squirters"],
+    "answer": "They contain watery sap that children use as water squirters"
+  }
+},
+{
+  "slug": "teak",
+  "name": "TEAK TREE",
+  "tagline": "The Golden Timber King - Tectona grandis",
+  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/teak-tree.jpg",
+  "listenLabel": "🔊 Listen Teak Tree",
+  "sections": [
+    {
+      "title": "🌳 Core Identity",
+      "content": "Common Name: Teak\nScientific Name: Tectona grandis\nFamily: Lamiaceae\nOrder: Lamiales\nType: Large deciduous timber tree\nOrigin: South and Southeast Asia\nOther Names: Sagwan (Hindi), Sagon"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Lamiales\nFamily — Lamiaceae\nGenus — Tectona\nSpecies — grandis"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Very tall straight tree (up to 30–40 meters)\nLarge broad leaves\nLeaves rough on upper surface\nSmall white flowers in clusters\nRound hard fruits\nLight gray to brown bark"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, ovate to elliptical, very large (30–60 cm long), rough above, hairy beneath, light green when young, dark green when mature\nFlowers: White, small, large terminal panicles, flowering season during rainy season\nFruits: Round drupe, green → brown when mature, single seed inside hard shell\nBark & Wood: Light brown to gray, fibrous and slightly flaky texture"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical monsoon climate\nWarm regions preferred\nModerate to high rainfall required\nWell-drained deep soil\nFull sunlight required\nModerate drought tolerance\nLong-lived tree (over 100 years)"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Tectoquinone, Lapachol, Natural oils - These provide termite resistance, water resistance, exceptional durability, and natural preservation properties"
+    },
+    {
+      "title": "🪵 Economic & Timber Importance",
+      "content": "High-quality furniture manufacturing\nShipbuilding applications\nFlooring and decking\nDoors and windows\nDecorative veneers\nSpecial Feature: Resistant to termites and decay, highly durable hardwood, golden-brown attractive texture"
+    },
+    {
+      "title": "🌱 Agricultural & Commercial Importance",
+      "content": "Important plantation crop\nHigh economic value timber\nExport-quality wood\nMajor forestry species in India\nSustainable timber production"
+    },
+    {
+      "title": "🏗 Industrial Importance",
+      "content": "Construction materials\nMarine applications (boats, ship decks)\nLuxury furniture manufacturing\nCarvings and handicrafts\nVeneer production"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Provides shade for surrounding vegetation\nPrevents soil erosion\nSupports biodiversity in forests\nImportant in sustainable forestry practices\nLong lifespan contributes to carbon sequestration"
+    },
+    {
+      "title": "⚠ Safety & Ecological Notes",
+      "content": "Overharvesting can negatively affect forest ecosystems. Sustainable plantation practices recommended. Teak dust may cause mild skin irritation in workers during processing."
+    },
+    {
+      "title": "🛕 Cultural & Traditional Importance",
+      "content": "Symbol of strength and durability in Indian culture\nUsed in traditional Indian architecture\nValuable hardwood in heritage building restoration\nSignifies quality and longevity"
+    },
+    {
+      "title": "📚 Botanical Special Features",
+      "content": "Large leaves help in efficient transpiration regulation\nDeciduous nature helps conserve water during dry seasons\nWood becomes stronger and more valuable with age\nNatural chemical compounds provide self-protection"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. One of the most valuable timber trees worldwide\n2. Highly durable hardwood (lasts 100+ years)\n3. Naturally termite and decay resistant\n4. Requires full sunlight for growth\n5. Used in shipbuilding, furniture, and flooring\n6. Important forestry and plantation species\n7. Golden-brown wood becomes more valuable with age\n8. Contains tectoquinone and lapachol compounds"
+    }
+  ],
+  "quiz": {
+    "question": "What chemical compounds in Teak wood make it naturally resistant to termites and decay?",
+    "options": [
+      "Cellulose and lignin",
+      "Tectoquinone, lapachol, and natural oils",
+      "Chlorophyll and carotenoids",
+      "Tannins and phenols"
+    ],
+    "answer": "Tectoquinone, lapachol, and natural oils"
+  }
+},
     {
       "slug": "tulsi",
       "name": "TULSI",
