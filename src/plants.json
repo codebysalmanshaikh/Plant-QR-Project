@@ -221,7 +221,7 @@
   "slug": "orchid-tree",
   "name": "ORCHID TREE",
   "tagline": "The Spring-Blooming Camel-Foot Beauty",
-"heroImage": "  /images/bauhinia variegata1.jpg",
+"heroImage": "  /images/Bauhinia variegata1.jpg",
     "voiceFile": "  /voice/bahunia varigata.mp3", 
      "listenLabel": "🔊 Listen Orchid Tree",
   "sections": [
@@ -369,8 +369,8 @@
   "slug": "kassod-tree",
   "name": "KASSOD TREE",
   "tagline": "The Evergreen Shade Provider - Siamese Cassia",
-"heroImage": "  /images/cassia siamea2.jpg",
-    "voiceFile": "  /voice/cassia siamea.mp3", 
+"heroImage": "/images/Cassia siamea2.jpg",
+    "voiceFile": "/voice/Cassia siamea.mp3", 
       "listenLabel": "🔊 Listen Kassod Tree",
   "sections": [
     {
@@ -809,7 +809,7 @@
   "name": "DAMASK ROSE",
   "tagline": "The Fragrant Beauty - Queen of Flowers",
 "heroImage": "  /images/Rosa.jpg",
-    "voiceFile": "  /voice/Damask Rose.mp3", 
+    "voiceFile": "  /voice/damask rose.mp3", 
       "listenLabel": "🔊 Listen Damask Rose",
   "sections": [
     {
@@ -958,7 +958,7 @@
   "slug": "african-tulip-tree",
   "name": "AFRICAN TULIP TREE",
   "tagline": "The Flame of the Forest - Spectacular Red Beauty",
-"heroImage": "  /images/sapathodia.jpg",
+"heroImage": "  /images/Sapathodia.jpg",
     "voiceFile": "  /voice/spathodia companulata.mp3", 
       "listenLabel": "🔊 Listen African Tulip Tree",
   "sections": [
