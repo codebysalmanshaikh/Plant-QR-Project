@@ -4,7 +4,8 @@
   "slug": "neem",
   "name": "NEEM TREE",
   "tagline": "The Village Pharmacy Tree",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/neem.jpg",
+  "heroImage": "/src/assets/images/neemtree5.jpg",
+    "voiceFile": "/src/assets/voice/neem-voice.mp3",
   "listenLabel": "🔊 Listen Neem",
   "sections": [
     {
@@ -78,7 +79,8 @@
   "slug": "siris",
   "name": "SIRIS TREE",
   "tagline": "The Nitrogen-Fixing Shade Provider",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/siris.jpg",
+ "heroImage": "/src/assets/images/Albizia lebbeck5.jpg",
+    "voiceFile": "/src/assets/voice/Albizia lebbeck.mp3",
   "listenLabel": "🔊 Listen Siris",
   "sections": [
     {
@@ -144,8 +146,9 @@
   "slug": "saptaparni",
   "name": "SAPTAPARNI TREE",
   "tagline": "The Blackboard Tree - Night-Fragrant Medicinal Wonder",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/saptaparni.jpg",
-  "listenLabel": "🔊 Listen Saptaparni",
+"heroImage": "/src/assets/images/Alstonia scholaris3.jpg",
+    "voiceFile": "/src/assets/voice/Alstonia scholaris.mp3", 
+     "listenLabel": "🔊 Listen Saptaparni",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -218,8 +221,9 @@
   "slug": "orchid-tree",
   "name": "ORCHID TREE",
   "tagline": "The Spring-Blooming Camel-Foot Beauty",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/orchid-tree.jpg",
-  "listenLabel": "🔊 Listen Orchid Tree",
+"heroImage": "/src/assets/images/bauhinia variegata1.jpg",
+    "voiceFile": "/src/assets/voice/bahunia varigata.mp3", 
+     "listenLabel": "🔊 Listen Orchid Tree",
   "sections": [
     {
       "title": "🌸 Core Identity",
@@ -291,8 +295,9 @@
   "slug": "golden-shower-tree",
   "name": "GOLDEN SHOWER TREE",
   "tagline": "The Summer Beauty - National Tree of Thailand",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/golden-shower-tree.jpg",
-  "listenLabel": "🔊 Listen Golden Shower Tree",
+"heroImage": "/src/assets/images/Cassia fistulaa1.jpg",
+    "voiceFile": "/src/assets/voice/casia fistula.mp3", 
+      "listenLabel": "🔊 Listen Golden Shower Tree",
   "sections": [
     {
       "title": "🌼 Core Identity",
@@ -364,8 +369,9 @@
   "slug": "kassod-tree",
   "name": "KASSOD TREE",
   "tagline": "The Evergreen Shade Provider - Siamese Cassia",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/kassod-tree.jpg",
-  "listenLabel": "🔊 Listen Kassod Tree",
+"heroImage": "/src/assets/images/cassia siamea2.jpg",
+    "voiceFile": "/src/assets/voice/cassia siamea.mp3", 
+      "listenLabel": "🔊 Listen Kassod Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -437,8 +443,9 @@
   "slug": "amla",
   "name": "AMLA TREE",
   "tagline": "The Indian Gooseberry - Vitamin C Powerhouse",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/amla-tree.jpg",
-  "listenLabel": "🔊 Listen Amla Tree",
+"heroImage": "/src/assets/images/Phyllanthus emblica1.jpg",
+    "voiceFile": "/src/assets/voice/Emblica officinalis.mp3", 
+      "listenLabel": "🔊 Listen Amla Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -510,8 +517,9 @@
   "slug": "weeping-fig",
   "name": "WEEPING FIG TREE",
   "tagline": "The Graceful Indoor Beauty - Benjamin Fig",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/weeping-fig-tree.jpg",
-  "listenLabel": "🔊 Listen Weeping Fig Tree",
+"heroImage": "/src/assets/images/Ficus benjamina1.jpg",
+    "voiceFile": "/src/assets/voice/Ficus benjamina.mp3", 
+      "listenLabel": "🔊 Listen Weeping Fig Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -584,8 +592,9 @@
   "slug": "curry-leaf-plant",
   "name": "CURRY LEAF PLANT",
   "tagline": "The Aromatic Kitchen Essential - Kadi Patta",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/curry-leaf-plant.jpg",
-  "listenLabel": "🔊 Listen Curry Leaf Plant",
+"heroImage": "/src/assets/images/Murraya koenigii1.jpg",
+    "voiceFile": "/src/assets/voice/Murraya koenigii.mp3", 
+      "listenLabel": "🔊 Listen Curry Leaf Plant",
   "sections": [
     {
       "title": "🌿 Core Identity",
@@ -658,8 +667,9 @@
   "slug": "kadamba",
   "name": "KADAMBA TREE",
   "tagline": "The Sacred Fast-Growing Tropical Beauty",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/kadamba-tree.jpg",
-  "listenLabel": "🔊 Listen Kadamba Tree",
+"heroImage": "/src/assets/images/Neolamarckia cadamba1.jpg",
+    "voiceFile": "/src/assets/voice/Neolamarckia cadamba.mp3", 
+      "listenLabel": "🔊 Listen Kadamba Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -727,8 +737,9 @@
   "slug": "false-ashoka",
   "name": "FALSE ASHOKA TREE",
   "tagline": "The Elegant Urban Avenue Tree - Mast Tree",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/false-ashoka-tree.jpg",
-  "listenLabel": "🔊 Listen False Ashoka Tree",
+"heroImage": "/src/assets/images/Polyalthia longifolia1.jpg",
+    "voiceFile": "/src/assets/voice/Polyalthia longifolia.mp3", 
+      "listenLabel": "🔊 Listen False Ashoka Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -797,8 +808,9 @@
   "slug": "damask-rose",
   "name": "DAMASK ROSE",
   "tagline": "The Fragrant Beauty - Queen of Flowers",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/damask-rose.jpg",
-  "listenLabel": "🔊 Listen Damask Rose",
+"heroImage": "/src/assets/images/Rosa.jpg",
+    "voiceFile": "/src/assets/voice/Damask Rose.mp3", 
+      "listenLabel": "🔊 Listen Damask Rose",
   "sections": [
     {
       "title": "🌹 Core Identity",
@@ -871,8 +883,9 @@
   "slug": "sandalwood",
   "name": "SANDALWOOD TREE",
   "tagline": "The Sacred Fragrant Treasure - Indian Sandalwood",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/sandalwood-tree.jpg",
-  "listenLabel": "🔊 Listen Sandalwood Tree",
+"heroImage": "/src/assets/images/Santalum album2.jpg",
+    "voiceFile": "/src/assets/voice/Santalum album.mp3",
+       "listenLabel": "🔊 Listen Sandalwood Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -945,8 +958,9 @@
   "slug": "african-tulip-tree",
   "name": "AFRICAN TULIP TREE",
   "tagline": "The Flame of the Forest - Spectacular Red Beauty",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/african-tulip-tree.jpg",
-  "listenLabel": "🔊 Listen African Tulip Tree",
+"heroImage": "/src/assets/images/sapathodia.jpg",
+    "voiceFile": "/src/assets/voice/spathodia companulata.mp3", 
+      "listenLabel": "🔊 Listen African Tulip Tree",
   "sections": [
     {
       "title": "1️⃣ Core Identity",
@@ -1015,8 +1029,8 @@
   "slug": "teak",
   "name": "TEAK TREE",
   "tagline": "The Golden Timber King - Tectona grandis",
-  "heroImage": "https://uploads.onecompiler.io/44duvvcub/44duvnmsb/teak-tree.jpg",
-  "listenLabel": "🔊 Listen Teak Tree",
+"heroImage": "/src/assets/images/Tectona grandis1.jpg",
+    "voiceFile": "/src/assets/voice/Tectona grandis.mp3",  "listenLabel": "🔊 Listen Teak Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
@@ -1085,64 +1099,7 @@
     ],
     "answer": "Tectoquinone, lapachol, and natural oils"
   }
-},
-    {
-      "slug": "tulsi",
-      "name": "TULSI",
-      "tagline": "The Queen of Herbs",
-      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Ocimum_tenuiflorum3.jpg/800px-Ocimum_tenuiflorum3.jpg",
-      "listenLabel": "🔊 Listen Tulsi",
-      "sections": [
-        { "title": "🌳 Core Identity", "content": "Common Name: Tulsi\nScientific Name: Ocimum tenuiflorum\nFamily: Lamiaceae\nOrder: Lamiales\nType: Perennial herb\nOrigin: Indian subcontinent\nOther Names: Holy Basil, Sacred Basil, Vrinda" },
-        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots → Asterids\nOrder — Lamiales\nFamily — Lamiaceae\nGenus — Ocimum\nSpecies — tenuiflorum" },
-        { "title": "🔍 Field Identification Guide", "content": "Small aromatic shrub\nPurple/green stems\nOval serrated leaves\nTiny purple flowers\nStrong clove-like fragrance" },
-        { "title": "📏 Morphology", "content": "Leaves: Oval, 2–5 cm, aromatic\nFlowers: Purple-white, in whorls\nStem: Woody at base, hairy\nHeight: 30–60 cm" },
-        { "title": "🌍 Habitat & Growth", "content": "Tropical and subtropical\nWell-drained soil\nFull sun\nHome garden favorite" },
-        { "title": "🧪 Chemical Compounds", "content": "Eugenol, Ursolic acid, Rosmarinic acid, Linalool, Carvacrol" },
-        { "title": "💊 Medicinal Applications", "content": "Respiratory disorders, stress relief, fever reduction, anti-inflammatory, immune booster" },
-        { "title": "🦷 Dental Importance", "content": "Antibacterial mouth freshener, treats mouth ulcers" },
-        { "title": "🐛 Agricultural Importance", "content": "Natural insect repellent when planted near crops" },
-        { "title": "🧴 Commercial Products", "content": "Herbal teas, essential oils, Ayurvedic tablets, Tulsi kadha" },
-        { "title": "🌱 Ecological Benefits", "content": "Attracts pollinators, purifies air, repels mosquitoes" },
-        { "title": "⚠ Safety Notes", "content": "Avoid during pregnancy. May thin blood — caution with anticoagulants." },
-        { "title": "🛕 Cultural Importance", "content": "Worshipped in Hindu households daily, planted in courtyard as spiritual guardian." },
-        { "title": "📚 Tulsi in Ayurveda", "content": "Tridoshic herb, Sattvic quality, used in Charaka Samhita." },
-        { "title": "🧠 Student Quick Facts", "content": "1. Adaptogen — fights stress\n2. Anti-viral properties\n3. Revered for 3000+ years\n4. Grown in every Hindu home" }
-      ],
-      "quiz": {
-        "question": "What is the primary active compound in Tulsi?",
-        "options": ["Eugenol", "Azadirachtin"],
-        "answer": "Eugenol"
-      }
-    },
-    {
-      "slug": "aloe-vera",
-      "name": "ALOE VERA",
-      "tagline": "Nature's First Aid Kit",
-      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/800px-Aloe_vera_flower_inset.png",
-      "listenLabel": "🔊 Listen Aloe Vera",
-      "sections": [
-        { "title": "🌳 Core Identity", "content": "Common Name: Aloe Vera\nScientific Name: Aloe barbadensis miller\nFamily: Asphodelaceae\nOrder: Asparagales\nType: Succulent perennial\nOrigin: Arabian Peninsula\nOther Names: Ghritkumari, Burn Plant, True Aloe" },
-        { "title": "🧬 Full Botanical Classification", "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Monocots\nOrder — Asparagales\nFamily — Asphodelaceae\nGenus — Aloe\nSpecies — barbadensis" },
-        { "title": "🔍 Field Identification Guide", "content": "Rosette of thick fleshy leaves\nSerrated leaf margins\nClear gel inside leaves\nYellow tubular flowers\nNo visible stem" },
-        { "title": "📏 Morphology", "content": "Leaves: Thick succulent, 40–50 cm\nFlowers: Yellow, tubular, on spike\nRoots: Shallow, fibrous\nGel: Clear mucilaginous inner pulp" },
-        { "title": "🌍 Habitat & Growth", "content": "Arid and semi-arid\nWell-drained sandy soil\nFull sunlight\nDrought tolerant" },
-        { "title": "🧪 Chemical Compounds", "content": "Aloin, Emodin, Acemannan, Anthraquinones, Vitamins C & E" },
-        { "title": "💊 Medicinal Applications", "content": "Burns and wounds, skin moisturizing, digestive aid, constipation relief, anti-inflammatory" },
-        { "title": "🦷 Dental Importance", "content": "Aloe vera gel reduces gingivitis and plaque" },
-        { "title": "🐛 Agricultural Importance", "content": "Used as natural soil conditioner" },
-        { "title": "🧴 Commercial Products", "content": "Skin gels, face washes, juice drinks, shampoos, sunscreens" },
-        { "title": "🌱 Ecological Benefits", "content": "Low water usage, soil stabilizer, air purifier indoors" },
-        { "title": "⚠ Safety Notes", "content": "Do not ingest aloin (latex) in large amounts. Avoid during pregnancy." },
-        { "title": "🛕 Cultural Importance", "content": "Used by ancient Egyptians as Plant of Immortality, mentioned in Dioscorides." },
-        { "title": "📚 Aloe Vera in Ayurveda", "content": "Called Kumari in Ayurveda, balances all three doshas." },
-        { "title": "🧠 Student Quick Facts", "content": "1. Gel is 99% water\n2. Used for 6000+ years\n3. 1st aid for sunburn\n4. Thrives in poor soil" }
-      ],
-      "quiz": {
-        "question": "What gives Aloe Vera its healing gel property?",
-        "options": ["Acemannan", "Chlorophyll"],
-        "answer": "Acemannan"
-      }
-    }
+}
+
   ]
 }
