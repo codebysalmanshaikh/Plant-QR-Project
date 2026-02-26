@@ -4,8 +4,8 @@
   "slug": "neem",
   "name": "NEEM TREE",
   "tagline": "The Village Pharmacy Tree",
-  "heroImage": "/src/assets/images/neemtree5.jpg",
-    "voiceFile": "/src/assets/voice/neem-voice.mp3",
+  "heroImage": "/public/images/neemtree5.jpg",
+    "voiceFile": "/public/voice/neem-voice.mp3",
   "listenLabel": "🔊 Listen Neem",
   "sections": [
     {
@@ -79,8 +79,8 @@
   "slug": "siris",
   "name": "SIRIS TREE",
   "tagline": "The Nitrogen-Fixing Shade Provider",
- "heroImage": "/src/assets/images/Albizia lebbeck5.jpg",
-    "voiceFile": "/src/assets/voice/Albizia lebbeck.mp3",
+ "heroImage": " /public/images/Albizia lebbeck5.jpg",
+    "voiceFile": " /public/voice/Albizia lebbeck.mp3",
   "listenLabel": "🔊 Listen Siris",
   "sections": [
     {
@@ -146,8 +146,8 @@
   "slug": "saptaparni",
   "name": "SAPTAPARNI TREE",
   "tagline": "The Blackboard Tree - Night-Fragrant Medicinal Wonder",
-"heroImage": "/src/assets/images/Alstonia scholaris3.jpg",
-    "voiceFile": "/src/assets/voice/Alstonia scholaris.mp3", 
+"heroImage": " /public/images/Alstonia scholaris3.jpg",
+    "voiceFile": " /public/voice/Alstonia scholaris.mp3", 
      "listenLabel": "🔊 Listen Saptaparni",
   "sections": [
     {
@@ -221,8 +221,8 @@
   "slug": "orchid-tree",
   "name": "ORCHID TREE",
   "tagline": "The Spring-Blooming Camel-Foot Beauty",
-"heroImage": "/src/assets/images/bauhinia variegata1.jpg",
-    "voiceFile": "/src/assets/voice/bahunia varigata.mp3", 
+"heroImage": " /public/images/bauhinia variegata1.jpg",
+    "voiceFile": " /public/voice/bahunia varigata.mp3", 
      "listenLabel": "🔊 Listen Orchid Tree",
   "sections": [
     {
@@ -295,8 +295,8 @@
   "slug": "golden-shower-tree",
   "name": "GOLDEN SHOWER TREE",
   "tagline": "The Summer Beauty - National Tree of Thailand",
-"heroImage": "/src/assets/images/Cassia fistulaa1.jpg",
-    "voiceFile": "/src/assets/voice/casia fistula.mp3", 
+"heroImage": " /public/images/Cassia fistulaa1.jpg",
+    "voiceFile": " /public/voice/casia fistula.mp3", 
       "listenLabel": "🔊 Listen Golden Shower Tree",
   "sections": [
     {
@@ -369,8 +369,8 @@
   "slug": "kassod-tree",
   "name": "KASSOD TREE",
   "tagline": "The Evergreen Shade Provider - Siamese Cassia",
-"heroImage": "/src/assets/images/cassia siamea2.jpg",
-    "voiceFile": "/src/assets/voice/cassia siamea.mp3", 
+"heroImage": " /public/images/cassia siamea2.jpg",
+    "voiceFile": " /public/voice/cassia siamea.mp3", 
       "listenLabel": "🔊 Listen Kassod Tree",
   "sections": [
     {
@@ -443,8 +443,8 @@
   "slug": "amla",
   "name": "AMLA TREE",
   "tagline": "The Indian Gooseberry - Vitamin C Powerhouse",
-"heroImage": "/src/assets/images/Phyllanthus emblica1.jpg",
-    "voiceFile": "/src/assets/voice/Emblica officinalis.mp3", 
+"heroImage": " /public/images/Phyllanthus emblica1.jpg",
+    "voiceFile": " /public/voice/Emblica officinalis.mp3", 
       "listenLabel": "🔊 Listen Amla Tree",
   "sections": [
     {
@@ -517,8 +517,8 @@
   "slug": "weeping-fig",
   "name": "WEEPING FIG TREE",
   "tagline": "The Graceful Indoor Beauty - Benjamin Fig",
-"heroImage": "/src/assets/images/Ficus benjamina1.jpg",
-    "voiceFile": "/src/assets/voice/Ficus benjamina.mp3", 
+"heroImage": " /public/images/Ficus benjamina1.jpg",
+    "voiceFile": " /public/voice/Ficus benjamina.mp3", 
       "listenLabel": "🔊 Listen Weeping Fig Tree",
   "sections": [
     {
@@ -592,8 +592,8 @@
   "slug": "curry-leaf-plant",
   "name": "CURRY LEAF PLANT",
   "tagline": "The Aromatic Kitchen Essential - Kadi Patta",
-"heroImage": "/src/assets/images/Murraya koenigii1.jpg",
-    "voiceFile": "/src/assets/voice/Murraya koenigii.mp3", 
+"heroImage": " /public/images/Murraya koenigii1.jpg",
+    "voiceFile": " /public/voice/Murraya koenigii.mp3", 
       "listenLabel": "🔊 Listen Curry Leaf Plant",
   "sections": [
     {
@@ -667,8 +667,8 @@
   "slug": "kadamba",
   "name": "KADAMBA TREE",
   "tagline": "The Sacred Fast-Growing Tropical Beauty",
-"heroImage": "/src/assets/images/Neolamarckia cadamba1.jpg",
-    "voiceFile": "/src/assets/voice/Neolamarckia cadamba.mp3", 
+"heroImage": " /public/images/Neolamarckia cadamba1.jpg",
+    "voiceFile": " /public/voice/Neolamarckia cadamba.mp3", 
       "listenLabel": "🔊 Listen Kadamba Tree",
   "sections": [
     {
@@ -737,8 +737,8 @@
   "slug": "false-ashoka",
   "name": "FALSE ASHOKA TREE",
   "tagline": "The Elegant Urban Avenue Tree - Mast Tree",
-"heroImage": "/src/assets/images/Polyalthia longifolia1.jpg",
-    "voiceFile": "/src/assets/voice/Polyalthia longifolia.mp3", 
+"heroImage": " /public/images/Polyalthia longifolia1.jpg",
+    "voiceFile": " /public/voice/Polyalthia longifolia.mp3", 
       "listenLabel": "🔊 Listen False Ashoka Tree",
   "sections": [
     {
@@ -808,8 +808,8 @@
   "slug": "damask-rose",
   "name": "DAMASK ROSE",
   "tagline": "The Fragrant Beauty - Queen of Flowers",
-"heroImage": "/src/assets/images/Rosa.jpg",
-    "voiceFile": "/src/assets/voice/Damask Rose.mp3", 
+"heroImage": " /public/images/Rosa.jpg",
+    "voiceFile": " /public/voice/Damask Rose.mp3", 
       "listenLabel": "🔊 Listen Damask Rose",
   "sections": [
     {
@@ -883,8 +883,8 @@
   "slug": "sandalwood",
   "name": "SANDALWOOD TREE",
   "tagline": "The Sacred Fragrant Treasure - Indian Sandalwood",
-"heroImage": "/src/assets/images/Santalum album2.jpg",
-    "voiceFile": "/src/assets/voice/Santalum album.mp3",
+"heroImage": " /public/images/Santalum album2.jpg",
+    "voiceFile": " /public/voice/Santalum album.mp3",
        "listenLabel": "🔊 Listen Sandalwood Tree",
   "sections": [
     {
@@ -958,8 +958,8 @@
   "slug": "african-tulip-tree",
   "name": "AFRICAN TULIP TREE",
   "tagline": "The Flame of the Forest - Spectacular Red Beauty",
-"heroImage": "/src/assets/images/sapathodia.jpg",
-    "voiceFile": "/src/assets/voice/spathodia companulata.mp3", 
+"heroImage": " /public/images/sapathodia.jpg",
+    "voiceFile": " /public/voice/spathodia companulata.mp3", 
       "listenLabel": "🔊 Listen African Tulip Tree",
   "sections": [
     {
@@ -1029,8 +1029,8 @@
   "slug": "teak",
   "name": "TEAK TREE",
   "tagline": "The Golden Timber King - Tectona grandis",
-"heroImage": "/src/assets/images/Tectona grandis1.jpg",
-    "voiceFile": "/src/assets/voice/Tectona grandis.mp3",  "listenLabel": "🔊 Listen Teak Tree",
+"heroImage": " /public/images/Tectona grandis1.jpg",
+    "voiceFile": " /public/voice/Tectona grandis.mp3",  "listenLabel": "🔊 Listen Teak Tree",
   "sections": [
     {
       "title": "🌳 Core Identity",
