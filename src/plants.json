@@ -1099,6 +1099,85 @@
     ],
     "answer": "Tectoquinone, lapachol, and natural oils"
   }
+},
+{
+  "slug": "tulsi",
+  "name": "TULSI TREE",
+  "tagline": "The Sacred Healing Herb - Ocimum tenuiflorum",
+  "heroImage": "  /images/tulsi.jpeg",
+    "voiceFile": "  /voice/Tulsi.mp3",  "listenLabel": "🔊 Listen Tulsi Tree",
+  "sections": [
+    {
+      "title": "🌿 Core Identity",
+      "content": "Common Name: Tulsi / Holy Basil\nScientific Name: Ocimum tenuiflorum (synonym: Ocimum sanctum)\nFamily: Lamiaceae\nOrder: Lamiales\nType: Aromatic medicinal herb\nOrigin: Indian subcontinent\nOther Names: Sacred Basil, Vrinda"
+    },
+    {
+      "title": "🧬 Full Botanical Classification",
+      "content": "Kingdom — Plantae\nClade — Angiosperms\nClade — Eudicots\nOrder — Lamiales\nFamily — Lamiaceae\nGenus — Ocimum\nSpecies — tenuiflorum"
+    },
+    {
+      "title": "🔍 Field Identification Guide",
+      "content": "Small aromatic shrub (30–60 cm tall)\nOpposite green or purple leaves\nStrong pleasant smell when crushed\nPurple or white flower spikes\nSquare-shaped stem (typical of mint family)\nGrown commonly in pots and courtyards"
+    },
+    {
+      "title": "📏 Morphology",
+      "content": "Leaves: Simple, opposite arrangement, ovate shape, slightly toothed margin, soft and hairy texture, green or purplish color\nFlowers: Purple or white, small size, terminal spikes arrangement, aromatic fragrance, flowering throughout the year (varies regionally)\nFruits: Small oval nutlets, brown color, contains tiny seeds\nStem: Square (quadrangular) shaped, hairy texture, green to purple color"
+    },
+    {
+      "title": "🌍 Habitat & Growing Conditions",
+      "content": "Tropical and subtropical climate\nWarm climate preferred\nModerate rainfall\nWell-drained fertile soil\nFull sun to partial shade\nEasily grown in pots\nPerennial short-lived shrub"
+    },
+    {
+      "title": "🧪 Chemical Compounds",
+      "content": "Eugenol, Ursolic acid, Rosmarinic acid, Linalool, Caryophyllene - These provide antibacterial properties, antiviral effects, anti-inflammatory action, and antioxidant benefits"
+    },
+    {
+      "title": "💊 Medicinal Applications",
+      "content": "Traditional Uses (Ayurveda): Cold and cough remedy, boosts immunity, reduces fever, improves digestion, stress relief\nModern Uses: Herbal teas, immunity supplements, essential oil extraction, natural antimicrobial products"
+    },
+    {
+      "title": "🫖 Household Importance",
+      "content": "Tulsi leaves used in herbal tea\nHome remedy for respiratory issues\nCommon medicinal plant in Indian households\nUsed in daily worship rituals\nEasily accessible household remedy"
+    },
+    {
+      "title": "🌱 Ecological Importance",
+      "content": "Attracts bees and pollinators\nEasy to cultivate\nEnhances home garden biodiversity\nRepels some insects naturally\nSupports local ecosystem in gardens"
+    },
+    {
+      "title": "🧴 Commercial Uses",
+      "content": "Herbal teas\nEssential oils\nAyurvedic medicines\nSkincare products\nImmunity boosters\nHigh market demand for wellness products"
+    },
+    {
+      "title": "🌍 Environmental Benefits",
+      "content": "Air-purifying reputation\nGrows easily in small spaces\nSupports pollinator insects\nPromotes sustainable home gardening\nIdeal for urban and rural settings"
+    },
+    {
+      "title": "⚠ Safety Notes",
+      "content": "Generally safe in moderate amounts. Excess consumption may cause mild gastric irritation. Medicinal use should be supervised in pregnancy. Not recommended in large therapeutic doses for extended periods without guidance."
+    },
+    {
+      "title": "🛕 Cultural & Religious Importance",
+      "content": "Considered sacred in Hindu tradition\nWorshipped daily in many homes\nAssociated with purity and protection\nImportant plant in Indian culture\nSymbol of spirituality and health"
+    },
+    {
+      "title": "📚 Tulsi in Ayurveda",
+      "content": "Rasa (Taste): Pungent and bitter\nVirya (Potency): Heating\nBalances Kapha and Vata dosha\nKnown as an adaptogenic herb\nHelps body adapt to stress"
+    },
+    {
+      "title": "🧠 Student Quick Facts",
+      "content": "1. Aromatic medicinal herb used in herbal tea\n2. Sacred plant worshipped in Indian homes\n3. Contains eugenol and other bioactive compounds\n4. Naturally attracts pollinators and bees\n5. Easy to grow in pots and small spaces\n6. Square-shaped stem (characteristic of mint family)\n7. Adaptogenic herb that helps manage stress\n8. Has strong antibacterial and antiviral properties"
+    }
+  ],
+  "quiz": {
+    "question": "Which bioactive compound in Tulsi is responsible for its strong aromatic properties and antibacterial effects?",
+    "options": [
+      "Caffeine",
+      "Chlorophyll",
+      "Eugenol",
+      "Cellulose"
+    ],
+    "answer": "Eugenol"
+  }
 }
 
   ]

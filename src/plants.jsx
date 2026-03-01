@@ -4,20 +4,141 @@ import "@fontsource/poppins";
 import "@fontsource/montserrat";
 import plantsData from "./plants.json";
 
-const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  const [openAccordion, setOpenAccordion] = useState(null);
-  const [quizAnswer, setQuizAnswer] = useState(null);
+/* ─── Global animation styles injected once ─────────────────────────────── */
+const GLOBAL_STYLES = `
+  @keyframes floatLeaf {
+    0%   { transform: translateY(-60px) rotate(0deg);   opacity: 0; }
+    10%  { opacity: 0.75; }
+    90%  { opacity: 0.55; }
+    100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+  }
 
-  // ── Audio state ─────────────────────────────────────────────────────────────
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [progress, setProgress] = useState(0);       // 0–100
-  const [currentTime, setCurrentTime] = useState(0); // seconds
-  const [duration, setDuration] = useState(0);       // seconds
+  @keyframes sway {
+    0%, 100% { margin-left: 0px; }
+    25%       { margin-left: 30px; }
+    75%       { margin-left: -30px; }
+  }
+
+  @keyframes soundWave {
+    0%, 100% { transform: scaleY(0.3); opacity: 0.5; }
+    50%       { transform: scaleY(1);   opacity: 1;   }
+  }
+
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0);    }
+  }
+
+  @keyframes fadeSlideOut {
+    from { opacity: 1; transform: translateY(0);    }
+    to   { opacity: 0; transform: translateY(-28px); }
+  }
+
+  @keyframes heroReveal {
+    from { opacity: 0; transform: scale(1.04) translateY(16px); }
+    to   { opacity: 1; transform: scale(1)    translateY(0);    }
+  }
+
+  @keyframes progressPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(46,125,50,0.4); }
+    50%       { box-shadow: 0 0 0 6px rgba(46,125,50,0);  }
+  }
+
+  .leaf {
+    position: fixed;
+    top: -60px;
+    font-size: 22px;
+    pointer-events: none;
+    z-index: 0;
+    user-select: none;
+    animation: floatLeaf linear infinite, sway ease-in-out infinite;
+  }
+
+  .page-enter {
+    animation: fadeSlideIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .hero-reveal {
+    animation: heroReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .card-hover {
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.25s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(46,125,50,0.18);
+  }
+
+  .btn-bounce {
+    transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), background 0.2s;
+  }
+  .btn-bounce:hover  { transform: translateY(-3px) scale(1.04); }
+  .btn-bounce:active { transform: scale(0.96); }
+
+  .progress-active {
+    animation: progressPulse 1.4s ease-in-out infinite;
+  }
+
+  .stagger-1 { animation-delay: 0.05s; }
+  .stagger-2 { animation-delay: 0.12s; }
+  .stagger-3 { animation-delay: 0.20s; }
+  .stagger-4 { animation-delay: 0.28s; }
+`;
+
+/* ─── Floating leaves layer ─────────────────────────────────────────────── */
+const LEAVES = [
+  { left: "6%",  dur: 12, swayDur: 4.5, delay: 0,   emoji: "🍃" },
+  { left: "22%", dur: 17, swayDur: 5.8, delay: 3,   emoji: "🌿" },
+  { left: "40%", dur: 15, swayDur: 4.0, delay: 6,   emoji: "🍃" },
+  { left: "58%", dur: 20, swayDur: 6.2, delay: 1.5, emoji: "🌿" },
+  { left: "74%", dur: 18, swayDur: 5.0, delay: 9,   emoji: "🍃" },
+  { left: "90%", dur: 13, swayDur: 3.8, delay: 4.5, emoji: "🌿" },
+];
+
+const FloatingLeaves = () => (
+  <>
+    {LEAVES.map((l, i) => (
+      <div
+        key={i}
+        className="leaf"
+        style={{
+          left: l.left,
+          animationDuration: `${l.dur}s, ${l.swayDur}s`,
+          animationDelay: `${l.delay}s, ${l.delay}s`,
+        }}
+      >
+        {l.emoji}
+      </div>
+    ))}
+  </>
+);
+
+/* ─── Main component ────────────────────────────────────────────────────── */
+const Navbar = () => {
+  const [darkMode, setDarkMode]       = useState(false);
+  const [openAccordion, setOpenAccordion] = useState(null);
+  const [quizAnswer, setQuizAnswer]   = useState(null);
+  const [pageKey, setPageKey]         = useState(0); // triggers re-mount animation
+
+  /* Audio state */
+  const [isPlaying, setIsPlaying]   = useState(false);
+  const [progress, setProgress]     = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration]     = useState(0);
   const audioRef = useRef(null);
 
   const getSlug = () => window.location.hash.replace(/^#\/?/, "").trim();
   const [slug, setSlug] = useState(getSlug);
+
+  /* Inject global styles once */
+  useEffect(() => {
+    const tag = document.createElement("style");
+    tag.innerHTML = GLOBAL_STYLES;
+    document.head.appendChild(tag);
+    return () => document.head.removeChild(tag);
+  }, []);
 
   useEffect(() => {
     const handler = () => {
@@ -25,13 +146,14 @@ const Navbar = () => {
       setOpenAccordion(null);
       setQuizAnswer(null);
       stopAudio();
-      window.scrollTo(0, 0);
+      setPageKey((k) => k + 1); // restart enter animation
+      window.scrollTo({ top: 0, behavior: "smooth" });
     };
     window.addEventListener("hashchange", handler);
     return () => window.removeEventListener("hashchange", handler);
   }, []);
 
-  // ── Stop helper ─────────────────────────────────────────────────────────────
+  /* ── Audio helpers ─────────────────────────────────────────────────────── */
   const stopAudio = () => {
     if (audioRef.current) {
       audioRef.current.pause();
@@ -44,27 +166,18 @@ const Navbar = () => {
     setDuration(0);
   };
 
-  // ── Play / Stop toggle ──────────────────────────────────────────────────────
   const handleListen = () => {
     if (!plant?.voiceFile) return;
-
-    if (isPlaying) {
-      stopAudio();
-      return;
-    }
+    if (isPlaying) { stopAudio(); return; }
 
     const audio = new Audio(plant.voiceFile);
     audioRef.current = audio;
 
-    audio.addEventListener("loadedmetadata", () => {
-      setDuration(audio.duration);
-    });
-
+    audio.addEventListener("loadedmetadata", () => setDuration(audio.duration));
     audio.addEventListener("timeupdate", () => {
       setCurrentTime(audio.currentTime);
       setProgress((audio.currentTime / audio.duration) * 100 || 0);
     });
-
     audio.addEventListener("ended", () => {
       setIsPlaying(false);
       setProgress(100);
@@ -74,113 +187,133 @@ const Navbar = () => {
     setIsPlaying(true);
   };
 
-  // ── Seek by clicking progress bar ──────────────────────────────────────────
   const handleSeek = (e) => {
     if (!audioRef.current || !duration) return;
-    const bar = e.currentTarget;
-    const clickX = e.clientX - bar.getBoundingClientRect().left;
-    const ratio = clickX / bar.offsetWidth;
+    const bar   = e.currentTarget;
+    const ratio = (e.clientX - bar.getBoundingClientRect().left) / bar.offsetWidth;
     audioRef.current.currentTime = ratio * duration;
     setProgress(ratio * 100);
   };
 
-  // ── Time formatter mm:ss ────────────────────────────────────────────────────
   const fmt = (s) => {
     if (!s || isNaN(s)) return "0:00";
-    const m = Math.floor(s / 60);
-    const sec = Math.floor(s % 60);
-    return `${m}:${sec.toString().padStart(2, "0")}`;
+    return `${Math.floor(s / 60)}:${Math.floor(s % 60).toString().padStart(2, "0")}`;
   };
 
-  const toggleAccordion = (index) => {
+  const toggleAccordion = (index) =>
     setOpenAccordion(openAccordion === index ? null : index);
-  };
 
+  /* ── Theme ─────────────────────────────────────────────────────────────── */
   const theme = {
-    bg: darkMode ? "bg-[#0f1a14]" : "bg-[#e8f3ec]",
-    text: darkMode ? "text-[#e6f3ec]" : "text-[#1c2b22]",
-    cardBg: darkMode ? "bg-[#16241d]" : "bg-white",
-    cardText: darkMode ? "text-[#e6f3ec]" : "text-[#1c2b22]",
-    cardBorder: darkMode ? "border border-[#2e7d3240]" : "border border-[#2e7d3220]",
-    footerText: darkMode ? "text-[#a5c8ad]" : "text-[#4a6652]",
+    bg:          darkMode ? "bg-[#0f1a14]"          : "bg-[#e8f3ec]",
+    text:        darkMode ? "text-[#e6f3ec]"         : "text-[#1c2b22]",
+    cardBg:      darkMode ? "bg-[#16241d]"           : "bg-white",
+    cardText:    darkMode ? "text-[#e6f3ec]"         : "text-[#1c2b22]",
+    cardBorder:  darkMode ? "border border-[#2e7d3240]" : "border border-[#2e7d3220]",
+    footerText:  darkMode ? "text-[#a5c8ad]"         : "text-[#4a6652]",
   };
 
   const plant = plantsData.plants.find((p) => p.slug === slug);
 
-  // ── Plant list page ─────────────────────────────────────────────────────────
+  /* ════════════════════════════════════════════════════════════════════════
+     Plant LIST page
+  ════════════════════════════════════════════════════════════════════════ */
   if (!slug || !plant) {
     return (
-      <div className={`${theme.bg} ${theme.text} min-h-screen transition-all duration-300 font-['Poppins'] overflow-x-hidden`}>
+      <div
+        key={`list-${pageKey}`}
+        className={`${theme.bg} ${theme.text} min-h-screen transition-colors duration-500 font-['Poppins'] overflow-x-hidden relative page-enter`}
+      >
+        <FloatingLeaves />
+
+        {/* Hero */}
         <section
-          className="relative text-white text-center py-[100px] px-[10px] rounded-[40px]"
+          className="hero-reveal relative text-white text-center py-[100px] px-[10px] rounded-[40px] overflow-hidden"
           style={{
-            backgroundImage: "linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200')",
+            backgroundImage:
+              "linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
-          <h1 className="font-['Montserrat'] text-[56px] tracking-[3px]">BOTANICAL GARDEN</h1>
-          <p className="text-[20px] mt-[15px]">Scan a plant QR to explore</p>
+          <h1 className="font-['Montserrat'] text-[56px] tracking-[3px] drop-shadow-lg">
+            BOTANICAL GARDEN
+          </h1>
+          <p className="text-[20px] mt-[15px] opacity-90">Scan a plant QR to explore</p>
         </section>
 
-        <div className="flex justify-center items-center gap-[20px] py-[20px] px-[30px]">
+        {/* Dark Mode toggle */}
+        <div className="flex justify-center py-[20px] px-[30px]">
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="px-[18px] py-[10px] rounded-[30px] bg-[#2e7d32] text-white font-semibold shadow-md transition"
+            className="btn-bounce px-[18px] py-[10px] rounded-[30px] bg-[#2e7d32] text-white font-semibold shadow-md"
           >
             {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
           </button>
         </div>
 
-        <div className="my-[40px] mx-[20px] space-y-[16px] max-w-[600px] mx-auto">
-          <p className="text-center font-semibold text-[#2e7d32] mb-[20px]">Select a plant to view:</p>
-          {plantsData.plants.map((p) => (
+        {/* Plant list */}
+        <div className="my-[40px] space-y-[16px] max-w-[600px] mx-auto px-[20px]">
+          <p className="text-center font-semibold text-[#2e7d32] mb-[20px]">
+            Select a plant to view:
+          </p>
+          {plantsData.plants.map((p, i) => (
             <div
               key={p.slug}
-              onClick={() => { window.location.hash = "/" + p.slug; window.scrollTo(0, 0); }}
-              className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md transition hover:-translate-y-1`}
+              onClick={() => { window.location.hash = "/" + p.slug; }}
+              className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md card-hover page-enter stagger-${Math.min(i + 1, 4)}`}
+              style={{ animationDelay: `${i * 0.07}s` }}
             >
               <div>
                 <div>{p.name}</div>
                 <div className="text-sm font-normal opacity-60">{p.tagline}</div>
               </div>
-              <span>▶</span>
+              <span className="text-[#2e7d32]">▶</span>
             </div>
           ))}
         </div>
 
         <footer className={`text-center py-[40px] ${theme.footerText}`}>
-          Designed &amp; Developed by <span className="text-[#2e7d32] font-semibold">Jay Shinde</span>
+          Designed &amp; Developed by{" "}
+          <span className="text-[#2e7d32] font-semibold">Jay Shinde</span>
         </footer>
       </div>
     );
   }
 
-  // ── Plant detail page ───────────────────────────────────────────────────────
+  /* ════════════════════════════════════════════════════════════════════════
+     Plant DETAIL page
+  ════════════════════════════════════════════════════════════════════════ */
   return (
-    <div className={`${theme.bg} ${theme.text} min-h-screen transition-all duration-300 font-['Poppins'] overflow-x-hidden`}>
+    <div
+      key={`detail-${slug}-${pageKey}`}
+      className={`${theme.bg} ${theme.text} min-h-screen transition-colors duration-500 font-['Poppins'] overflow-x-hidden relative page-enter`}
+    >
+      <FloatingLeaves />
 
-      {/* Page Scroll Indicator */}
-      <div className="fixed top-0 left-0 h-[4px] bg-[#2e7d32] w-0 z-50"></div>
+      {/* Scroll progress indicator */}
+      <ScrollProgressBar />
 
       {/* Hero */}
       <section
-        className="relative text-white text-center py-[100px] px-[10px] rounded-[40px]"
+        className="hero-reveal relative text-white text-center py-[100px] px-[10px] rounded-[40px] overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('${plant.heroImage}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <h1 className="font-['Montserrat'] text-[56px] tracking-[3px]">{plant.name}</h1>
-        <p className="text-[20px] mt-[15px]">{plant.tagline}</p>
+        <h1 className="font-['Montserrat'] text-[56px] tracking-[3px] drop-shadow-lg">
+          {plant.name}
+        </h1>
+        <p className="text-[20px] mt-[15px] opacity-90">{plant.tagline}</p>
       </section>
 
-      {/* Topbar */}
+      {/* Topbar buttons */}
       <div className="flex justify-center items-center gap-[20px] py-[20px] px-[30px] flex-wrap">
         <button
           onClick={handleListen}
-          className={`px-[18px] py-[10px] rounded-[30px] font-semibold shadow-md hover:-translate-y-1 transition ${
+          className={`btn-bounce px-[18px] py-[10px] rounded-[30px] font-semibold shadow-md ${
             isPlaying ? "bg-red-500 text-white" : "bg-[#2e7d32] text-white"
           }`}
         >
@@ -189,24 +322,24 @@ const Navbar = () => {
 
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="px-[18px] py-[10px] rounded-[30px] bg-[#2e7d32] text-white font-semibold shadow-md transition"
+          className="btn-bounce px-[18px] py-[10px] rounded-[30px] bg-[#2e7d32] text-white font-semibold shadow-md"
         >
           {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
         </button>
 
         <button
-          onClick={() => { window.location.hash = ""; window.scrollTo(0, 0); }}
-          className="px-[18px] py-[10px] rounded-[30px] bg-[#1b5e20] text-white font-semibold shadow-md transition hover:-translate-y-1"
+          onClick={() => { window.location.hash = ""; }}
+          className="btn-bounce px-[18px] py-[10px] rounded-[30px] bg-[#1b5e20] text-white font-semibold shadow-md"
         >
           ← All Plants
         </button>
       </div>
 
-      {/* ── Audio Progress Bar — shown only when audio has been loaded ── */}
+      {/* Audio Progress Bar */}
       {(isPlaying || progress > 0) && (
-        <div className={`mx-[20px] mb-[10px] px-[20px] py-[14px] rounded-[16px] shadow-md ${theme.cardBg} ${theme.cardBorder}`}>
-
-          {/* Track label */}
+        <div
+          className={`mx-[20px] mb-[10px] px-[20px] py-[14px] rounded-[16px] shadow-md ${theme.cardBg} ${theme.cardBorder} page-enter`}
+        >
           <div className="flex justify-between items-center mb-[8px]">
             <span className="text-xs font-semibold text-[#2e7d32] truncate max-w-[70%]">
               {isPlaying ? "🔊 Playing..." : "⏹ Stopped"} — {plant.name}
@@ -216,14 +349,13 @@ const Navbar = () => {
             </span>
           </div>
 
-          {/* Clickable progress bar */}
           <div
             onClick={handleSeek}
             className="w-full h-[8px] rounded-full cursor-pointer overflow-hidden"
             style={{ background: darkMode ? "#2e7d3240" : "#2e7d3220" }}
           >
             <div
-              className="h-full rounded-full transition-all duration-200"
+              className={`h-full rounded-full transition-all duration-200 ${isPlaying ? "progress-active" : ""}`}
               style={{
                 width: `${progress}%`,
                 background: isPlaying
@@ -233,7 +365,6 @@ const Navbar = () => {
             />
           </div>
 
-          {/* Animated sound waves when playing */}
           {isPlaying && (
             <div className="flex items-end justify-center gap-[3px] mt-[10px] h-[18px]">
               {[1, 2, 3, 4, 5, 6, 7].map((i) => (
@@ -247,33 +378,47 @@ const Navbar = () => {
                   }}
                 />
               ))}
-              <style>{`
-                @keyframes soundWave {
-                  0%, 100% { transform: scaleY(0.3); opacity: 0.5; }
-                  50% { transform: scaleY(1); opacity: 1; }
-                }
-              `}</style>
             </div>
           )}
         </div>
       )}
 
-      {/* Sections */}
+      {/* Accordion sections */}
       <div className="my-[60px] mx-[20px] space-y-[20px]">
         {plant.sections.map((section, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="page-enter"
+            style={{ animationDelay: `${index * 0.08}s` }}
+          >
             <div
               onClick={() => toggleAccordion(index)}
-              className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md transition`}
+              className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] rounded-[16px] font-semibold cursor-pointer flex justify-between items-center shadow-md card-hover`}
             >
               {section.title}
-              <span className={`transition-transform duration-300 ${openAccordion === index ? "rotate-90" : ""}`}>▶</span>
+              <span
+                className="transition-transform duration-300 text-[#2e7d32]"
+                style={{ transform: openAccordion === index ? "rotate(90deg)" : "rotate(0deg)" }}
+              >
+                ▶
+              </span>
             </div>
+
             <div
-              className="overflow-hidden transition-all duration-300"
-              style={{ maxHeight: openAccordion === index ? "500px" : "0px" }}
+              className="overflow-hidden"
+              style={{
+                maxHeight: openAccordion === index ? "500px" : "0px",
+                transition: "max-height 0.4s cubic-bezier(0.22, 1, 0.36, 1)",
+              }}
             >
-              <div className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] mt-[12px] rounded-[14px] leading-[1.7] shadow-md whitespace-pre-line`}>
+              <div
+                className={`${theme.cardBg} ${theme.cardText} ${theme.cardBorder} p-[18px] mt-[12px] rounded-[14px] leading-[1.7] shadow-md whitespace-pre-line`}
+                style={{
+                  opacity: openAccordion === index ? 1 : 0,
+                  transform: openAccordion === index ? "translateY(0)" : "translateY(-8px)",
+                  transition: "opacity 0.3s ease, transform 0.3s ease",
+                }}
+              >
                 {section.content}
               </div>
             </div>
@@ -282,16 +427,17 @@ const Navbar = () => {
       </div>
 
       {/* Quiz */}
-      <div className="my-[60px] mx-[20px]">
-        <div className="bg-gradient-to-br from-[#2e7d32] to-[#1b5e20] text-white p-[20px] rounded-[18px]">
+      <div className="my-[60px] mx-[20px] page-enter" style={{ animationDelay: "0.3s" }}>
+        <div className="bg-gradient-to-br from-[#2e7d32] to-[#1b5e20] text-white p-[20px] rounded-[18px] shadow-lg">
           <b>Quick Quiz</b>
           <br /><br />
           {plant.quiz.question}
           <br />
           {plant.quiz.options.map((option) => {
             const isSelected = quizAnswer === option;
-            const isCorrect = option === plant.quiz.answer;
-            let style = "mt-[10px] mr-[10px] px-[16px] py-[8px] rounded-[12px] font-semibold transition ";
+            const isCorrect  = option === plant.quiz.answer;
+            let style =
+              "btn-bounce mt-[10px] mr-[10px] px-[16px] py-[8px] rounded-[12px] font-semibold ";
             if (!quizAnswer) {
               style += "bg-white text-black hover:bg-gray-100";
             } else if (isSelected && isCorrect) {
@@ -304,24 +450,56 @@ const Navbar = () => {
               style += "bg-white text-black opacity-50";
             }
             return (
-              <button key={option} className={style} onClick={() => !quizAnswer && setQuizAnswer(option)}>
+              <button
+                key={option}
+                className={style}
+                onClick={() => !quizAnswer && setQuizAnswer(option)}
+              >
                 {option}
               </button>
             );
           })}
           {quizAnswer && (
-            <p className="mt-[12px] font-semibold text-sm">
-              {quizAnswer === plant.quiz.answer ? "✅ Correct!" : `❌ Wrong! Answer: ${plant.quiz.answer}`}
+            <p className="mt-[12px] font-semibold text-sm page-enter">
+              {quizAnswer === plant.quiz.answer
+                ? "✅ Correct!"
+                : `❌ Wrong! Answer: ${plant.quiz.answer}`}
             </p>
           )}
         </div>
       </div>
 
-      {/* Footer */}
       <footer className={`text-center py-[40px] ${theme.footerText}`}>
-        Designed &amp; Developed by <span className="text-[#2e7d32] font-semibold">Jay Shinde</span>
+        Designed &amp; Developed by{" "}
+        <span className="text-[#2e7d32] font-semibold">Jay Shinde</span>
       </footer>
     </div>
+  );
+};
+
+/* ─── Scroll progress bar component ────────────────────────────────────── */
+const ScrollProgressBar = () => {
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const el  = document.documentElement;
+      const pct = (el.scrollTop / (el.scrollHeight - el.clientHeight)) * 100;
+      setWidth(Math.min(pct, 100));
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  return (
+    <div
+      className="fixed top-0 left-0 h-[4px] z-50 transition-all duration-100"
+      style={{
+        width: `${width}%`,
+        background: "linear-gradient(90deg, #2e7d32, #66bb6a)",
+        boxShadow: "0 0 8px rgba(46,125,50,0.6)",
+      }}
+    />
   );
 };
 
