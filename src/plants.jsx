@@ -237,7 +237,7 @@ const Navbar = () => {
           }}
         >
           <h1 className="font-['Montserrat'] text-[56px] tracking-[3px] drop-shadow-lg">
-            BOTANICAL GARDEN
+            Jay GARDEN
           </h1>
           <p className="text-[20px] mt-[15px] opacity-90">Scan a plant QR to explore</p>
         </section>
